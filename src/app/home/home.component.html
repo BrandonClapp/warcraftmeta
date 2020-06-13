@@ -1,0 +1,139 @@
+<div class="heading">
+  Class statistics last updated on <strong>June 12, 2020 at 7:49 CDT</strong>
+</div>
+<div class="panels">
+  <div class="panel">
+    <div class="header">Considerations</div>
+
+    <div class="content">
+      <div class="question">
+        I'm enjoy fulfilling the role of...
+
+        <div class="inline">
+          <span><mat-checkbox></mat-checkbox> Tanking</span>
+          <span><mat-checkbox></mat-checkbox> Healing</span>
+          <span><mat-checkbox></mat-checkbox> Damage</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="question">
+          I'm interested in doing...
+
+          <div class="inline">
+            <span><mat-checkbox></mat-checkbox> M+ Dungeons</span>
+            <span><mat-checkbox></mat-checkbox> Raiding</span>
+            <span><mat-checkbox></mat-checkbox> PvP</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="question">
+          I prefer to deal damage from...
+
+          <div class="inline">
+            <span><mat-checkbox></mat-checkbox> Melee</span>
+            <span><mat-checkbox></mat-checkbox> Ranged</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div>How important is self healing/sustainability to you?</div>
+        <mat-slider min="1" max="4" step="1" value="1"></mat-slider>
+        <div class="slider-value">Not Important</div>
+      </div>
+
+      <div class="question">
+        How important is mobility to you?
+        <mat-slider min="1" max="4" step="1" value="2"></mat-slider>
+        <div class="slider-value">Somewhat Important</div>
+      </div>
+
+      <div class="question">
+        How important is having support abilities to aid your group to you?
+        <mat-slider min="1" max="4" step="1" value="3"></mat-slider>
+        <div class="slider-value">Very Important</div>
+      </div>
+
+      <div class="question">
+        How important is having a stealth ability to you?
+        <mat-slider min="1" max="4" step="1" value="4"></mat-slider>
+        <div class="slider-value">Absolutely Required</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="header">Recommendations</div>
+    <div class="content">
+      <div *ngFor="let class of classes" class="class-block">
+        <div class="header">
+          <div class="left">
+            <img class="icon" src="/assets/{{ class.id }}.png" />
+            <div class="name" [style.color]="'#' + class.color">
+              {{ class.name }}
+            </div>
+          </div>
+          <div class="roles">
+            <img
+              src="/assets/{{ role }}.png"
+              *ngFor="let role of class.roles"
+            />
+          </div>
+        </div>
+        <table class="percentages">
+          <tr>
+            <th></th>
+            <th>M+</th>
+            <th>Raiding</th>
+            <th>2v2</th>
+            <th>3v3</th>
+          </tr>
+          <tr>
+            <td class="spec">All Specs</td>
+            <td class="bad">5% (25)</td>
+            <td class="bad">10% (50)</td>
+            <td>15% (75)</td>
+            <td class="good">20% (100)</td>
+          </tr>
+          <tr>
+            <td class="spec">Restoration</td>
+            <td class="bad">5% (25)</td>
+            <td>10% (50)</td>
+            <td class="good">15% (75)</td>
+            <td class="good">20% (100)</td>
+          </tr>
+          <tr>
+            <td class="spec">Elemental</td>
+            <td class="bad">5% (25)</td>
+            <td class="bad">10% (50)</td>
+            <td class="good">15% (75)</td>
+            <td class="good">20% (100)</td>
+          </tr>
+          <tr>
+            <td class="spec">Enhancement</td>
+            <td class="bad">5% (25)</td>
+            <td>10% (50)</td>
+            <td class="good">15% (75)</td>
+            <td class="good">20% (100)</td>
+          </tr>
+        </table>
+        <div class="footer">
+          <button [style.color]="'#' + class.color" class="remove">
+            Not Interested
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="header">Class Details</div>
+    <div class="content">
+      <div class="no-class-selection">
+        Select a class from the recommendation panel to see details.
+      </div>
+    </div>
+  </div>
+</div>
