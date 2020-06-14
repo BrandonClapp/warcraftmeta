@@ -2,65 +2,143 @@
   Class statistics last updated on <strong>June 12, 2020 at 7:49 CDT</strong>
 </div>
 <div class="panels">
-  <div class="panel">
-    <div class="header">Considerations</div>
+  <div>
+    <div class="panel">
+      <div class="header">Considerations</div>
 
-    <div class="content">
-      <div class="question">
-        I'm enjoy fulfilling the role of...
-
-        <div class="inline">
-          <span><mat-checkbox></mat-checkbox> Tanking</span>
-          <span><mat-checkbox></mat-checkbox> Healing</span>
-          <span><mat-checkbox></mat-checkbox> Damage</span>
-        </div>
-      </div>
-
-      <div>
+      <div class="content">
         <div class="question">
-          I'm interested in doing...
+          I'm enjoy fulfilling the role of...
 
           <div class="inline">
-            <span><mat-checkbox></mat-checkbox> M+ Dungeons</span>
-            <span><mat-checkbox></mat-checkbox> Raiding</span>
-            <span><mat-checkbox></mat-checkbox> PvP</span>
+            <span
+              ><mat-checkbox
+                (change)="reqRoleChanged('tank', $event)"
+              ></mat-checkbox>
+              Tank</span
+            >
+            <span
+              ><mat-checkbox
+                (change)="reqRoleChanged('healer', $event)"
+              ></mat-checkbox>
+              Healer</span
+            >
           </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="question">
-          I prefer to deal damage from...
 
           <div class="inline">
-            <span><mat-checkbox></mat-checkbox> Melee</span>
-            <span><mat-checkbox></mat-checkbox> Ranged</span>
+            <span
+              ><mat-checkbox
+                (change)="reqRoleChanged('melee', $event)"
+              ></mat-checkbox>
+              Melee DPS</span
+            >
+            <span
+              ><mat-checkbox
+                (change)="reqRoleChanged('ranged', $event)"
+              ></mat-checkbox>
+              Ranged DPS</span
+            >
           </div>
         </div>
-      </div>
 
-      <div class="question">
-        <div>How important is self healing/sustainability to you?</div>
-        <mat-slider min="1" max="4" step="1" value="1"></mat-slider>
-        <div class="slider-value">Not Important</div>
-      </div>
+        <div class="question">
+          <div>How important is <strong>self healing</strong> to you?</div>
+          <mat-slider
+            (input)="sliderChanged('survivability', $event)"
+            min="1"
+            max="4"
+            step="1"
+            value="1"
+          ></mat-slider>
+          <div class="slider-value">{{ survivabilityLabel$ | async }}</div>
+        </div>
 
-      <div class="question">
-        How important is mobility to you?
-        <mat-slider min="1" max="4" step="1" value="2"></mat-slider>
-        <div class="slider-value">Somewhat Important</div>
-      </div>
+        <div class="question">
+          How important is <strong>mobility</strong> to you?
+          <mat-slider
+            (input)="sliderChanged('mobility', $event)"
+            min="1"
+            max="4"
+            step="1"
+            value="1"
+          ></mat-slider>
+          <div class="slider-value">{{ mobilityLabel$ | async }}</div>
+        </div>
 
-      <div class="question">
-        How important is having support abilities to aid your group to you?
-        <mat-slider min="1" max="4" step="1" value="3"></mat-slider>
-        <div class="slider-value">Very Important</div>
-      </div>
+        <div class="question">
+          How important is having supportive <strong>utility</strong> abilities
+          to aid your group to you?
+          <mat-slider
+            (input)="sliderChanged('utility', $event)"
+            min="1"
+            max="4"
+            step="1"
+            value="1"
+          ></mat-slider>
+          <div class="slider-value">{{ utilityLabel$ | async }}</div>
+        </div>
 
-      <div class="question">
-        How important is having a stealth ability to you?
-        <mat-slider min="1" max="4" step="1" value="4"></mat-slider>
-        <div class="slider-value">Absolutely Required</div>
+        <div class="question">
+          How important is being <strong>versitile</strong> to you?
+          <mat-slider
+            (input)="sliderChanged('versatility', $event)"
+            min="1"
+            max="4"
+            step="1"
+            value="1"
+          ></mat-slider>
+          <div class="slider-value">{{ versatilityLabel$ | async }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="header">Tier List</div>
+      <div class="content tier-list">
+        <p>
+          Based on the top 500 players in each category (M+, Mythic Raiding, and
+          Arenas), this is the class/spec representation.
+        </p>
+
+        <mat-tab-group mat-align-tabs="start" [color]="'accent'" dynamicHeight>
+          <mat-tab label="M+">
+            <h3>Tanks</h3>
+            <ul>
+              <li>
+                <span class="tier s-tier">S Tier</span>
+                <ul>
+                  <li>Brewmaster Monk, Protection Warrior</li>
+                </ul>
+              </li>
+              <li>
+                <span class="tier a-tier">A Tier</span>
+                <ul>
+                  <li>Protection Paladin, Blood Death Knight</li>
+                </ul>
+              </li>
+              <li>
+                <span class="tier f-tier">F Tier</span>
+                <ul>
+                  <li>Guardian Druid</li>
+                </ul>
+              </li>
+            </ul>
+            <h3>Healers</h3>
+            <ul>
+              <li><span class="tier s-tier">S Tier</span></li>
+              <li><span class="tier a-tier">A Tier</span></li>
+              <li><span class="tier f-tier">F Tier</span></li>
+            </ul>
+            <h3>DPS</h3>
+            <ul>
+              <li><span class="tier s-tier">S Tier</span></li>
+              <li><span class="tier a-tier">A Tier</span></li>
+              <li><span class="tier f-tier">F Tier</span></li>
+            </ul>
+          </mat-tab>
+          <mat-tab label="Raiding">Content 2</mat-tab>
+          <mat-tab label="3v3">Content 2</mat-tab>
+          <mat-tab label="2v2">Content 2</mat-tab>
+        </mat-tab-group>
       </div>
     </div>
   </div>
@@ -68,7 +146,21 @@
   <div class="panel">
     <div class="header">Recommendations</div>
     <div class="content">
-      <div *ngFor="let class of classes" class="class-block">
+      <div class="no-results" *ngIf="(classes$ | async).length === 0">
+        No classes match that criteria.
+      </div>
+      <div
+        (click)="selectClass(class)"
+        *ngFor="let class of classes$ | async"
+        class="class-block"
+        [ngClass]="(selectedClass$ | async)?.id === class.id ? 'selected' : ''"
+        [ngStyle]="{
+          'border-left':
+            (selectedClass$ | async)?.id === class.id
+              ? '10px solid #' + class.color
+              : '5px solid #' + class.color
+        }"
+      >
         <div class="header">
           <div class="left">
             <img class="icon" src="/assets/{{ class.id }}.png" />
@@ -78,6 +170,7 @@
           </div>
           <div class="roles">
             <img
+              title="{{ role }}"
               src="/assets/{{ role }}.png"
               *ngFor="let role of class.roles"
             />
@@ -98,41 +191,95 @@
             <td>15% (75)</td>
             <td class="good">20% (100)</td>
           </tr>
-          <tr>
-            <td class="spec">Restoration</td>
-            <td class="bad">5% (25)</td>
-            <td>10% (50)</td>
-            <td class="good">15% (75)</td>
-            <td class="good">20% (100)</td>
-          </tr>
-          <tr>
-            <td class="spec">Elemental</td>
-            <td class="bad">5% (25)</td>
-            <td class="bad">10% (50)</td>
-            <td class="good">15% (75)</td>
-            <td class="good">20% (100)</td>
-          </tr>
-          <tr>
-            <td class="spec">Enhancement</td>
+          <tr *ngFor="let spec of class.specs">
+            <td class="spec">{{ spec }}</td>
             <td class="bad">5% (25)</td>
             <td>10% (50)</td>
             <td class="good">15% (75)</td>
             <td class="good">20% (100)</td>
           </tr>
         </table>
-        <div class="footer">
+        <!-- <div class="footer">
           <button [style.color]="'#' + class.color" class="remove">
             Not Interested
           </button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
   <div class="panel">
     <div class="header">Class Details</div>
-    <div class="content">
-      <div class="no-class-selection">
+    <div class="content class-details">
+      <div *ngIf="!(selectedClass$ | async)" class="no-class-selection">
         Select a class from the recommendation panel to see details.
+      </div>
+      <div *ngIf="selectedClass$ | async as class">
+        <!-- {{ class | json }} -->
+        <img class="icon" src="/assets/{{ class.id }}.png" />
+        <div class="name" [style.color]="'#' + class.color">
+          {{ class.name }}
+        </div>
+
+        <h4>Self healing</h4>
+        <mat-progress-bar
+          mode="determinate"
+          value="{{ class.survivability * 25 }}"
+        ></mat-progress-bar>
+
+        <h4>Mobility</h4>
+        <mat-progress-bar
+          mode="determinate"
+          value="{{ class.mobility * 25 }}"
+          color="class.color"
+        ></mat-progress-bar>
+
+        <h4>Utility</h4>
+        <mat-progress-bar
+          mode="determinate"
+          value="{{ class.utility * 25 }}"
+          color="class.color"
+        ></mat-progress-bar>
+
+        <h4>Versatility</h4>
+        <mat-progress-bar
+          mode="determinate"
+          value="{{ class.roles.length * 25 }}"
+          color="class.color"
+        ></mat-progress-bar>
+
+        <hr />
+
+        <h3>Performance</h3>
+
+        <p>
+          Based on statistics gathered from the to 500 players in each
+          respective content type (M+, Mythic Raiding, Arena) we have determined
+          that {{ class.name }} performs as follows.
+        </p>
+
+        <table class="performance">
+          <tr>
+            <th></th>
+            <th>M+</th>
+            <th>Raiding</th>
+            <th>2v2</th>
+            <th>3v3</th>
+          </tr>
+          <tr *ngFor="let spec of class.specs">
+            <th>{{ spec }}</th>
+            <td><span class="tier s-tier">S Tier</span></td>
+            <td><span class="tier a-tier">A Tier</span></td>
+            <td><span class="tier f-tier">F Tier</span></td>
+            <td><span class="tier f-tier">F Tier</span></td>
+          </tr>
+        </table>
+
+        <hr />
+
+        <h3>Top Players</h3>
+        <p>Top 500 players M+</p>
+        <p>Top 500 players Raiding</p>
+        <p>Top 500 players PvP</p>
       </div>
     </div>
   </div>

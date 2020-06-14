@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -16,6 +18,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     BrowserAnimationsModule,
     MatSliderModule,
     MatCheckboxModule,
+    MatProgressBarModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

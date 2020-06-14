@@ -1,0 +1,240 @@
+{
+  "raiding": {
+    "tanks": [
+      {
+        "spec": "Protection",
+        "class": "Warrior",
+        "name": "Xerxi",
+        "region": "EU",
+        "realm": "Tauren-Mill"
+      },
+      {
+        "spec": "Protection",
+        "class": "Paladin",
+        "name": "Lightmane",
+        "region": "EU",
+        "realm": "Tauren-Mill"
+      },
+      {
+        "spec": "Brewmaster",
+        "class": "Monk",
+        "name": "Dachimon",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "healers": [
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mistical",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Holy",
+        "class": "Priest",
+        "name": "Wholy",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mysti",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "damage": [
+      {
+        "spec": "Assassination",
+        "class": "Rogue",
+        "name": "Slices",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Fire",
+        "class": "Mage",
+        "name": "Burns",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Destruction",
+        "class": "Warlock",
+        "name": "Kaosbolt",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ]
+  },
+  "mplus": {
+    "tanks": [
+      {
+        "spec": "Protection",
+        "class": "Warrior",
+        "name": "Xerxi",
+        "region": "EU",
+        "realm": "Tauren-Mill"
+      },
+      {
+        "spec": "Protection",
+        "class": "Paladin",
+        "name": "Lightmane",
+        "region": "EU",
+        "realm": "Tauren-Mill"
+      },
+      {
+        "spec": "Brewmaster",
+        "class": "Monk",
+        "name": "Dachimon",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "healers": [
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mistical",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Holy",
+        "class": "Priest",
+        "name": "Wholy",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mysti",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "damage": [
+      {
+        "spec": "Assassination",
+        "class": "Rogue",
+        "name": "Slices",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Fire",
+        "class": "Mage",
+        "name": "Burns",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Destruction",
+        "class": "Warlock",
+        "name": "Kaosbolt",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ]
+  },
+  "2v2": {
+    "healers": [
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mistical",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Holy",
+        "class": "Priest",
+        "name": "Wholy",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mysti",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "damage": [
+      {
+        "spec": "Assassination",
+        "class": "Rogue",
+        "name": "Slices",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Fire",
+        "class": "Mage",
+        "name": "Burns",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Destruction",
+        "class": "Warlock",
+        "name": "Kaosbolt",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ]
+  },
+  "3v3": {
+    "healers": [
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mistical",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Holy",
+        "class": "Priest",
+        "name": "Wholy",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Mistweaver",
+        "class": "Monk",
+        "name": "Mysti",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ],
+    "damage": [
+      {
+        "spec": "Assassination",
+        "class": "Rogue",
+        "name": "Slices",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Fire",
+        "class": "Mage",
+        "name": "Burns",
+        "region": "US",
+        "realm": "Area-52"
+      },
+      {
+        "spec": "Destruction",
+        "class": "Warlock",
+        "name": "Kaosbolt",
+        "region": "US",
+        "realm": "Area-52"
+      }
+    ]
+  }
+}
