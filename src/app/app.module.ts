@@ -9,6 +9,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTabsModule } from '@angular/material/tabs';
+import { HttpClientModule } from '@angular/common/http';
+import { StatisticsService } from './statistics/statistics.service';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -20,8 +22,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatCheckboxModule,
     MatProgressBarModule,
     MatTabsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [StatisticsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

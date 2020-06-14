@@ -1,15 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Class, Role, getDefaultClasses } from './models/Class';
 import { BehaviorSubject, combineLatest, Observable } from 'rxjs';
 import { tap, map } from 'rxjs/operators';
 import * as _ from 'lodash';
+import { HttpClient } from '@angular/common/http';
+import { StatisticsService } from '../statistics/statistics.service';
+import { SpecStatistics } from '../statistics/models/SpecStatistics';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   public reqTank$: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(
     false
   );
@@ -49,7 +52,9 @@ export class HomeComponent {
 
   public classes$: Observable<Class[]>;
 
-  constructor() {
+  public specStats$: Observable<SpecStatistics[]> = this.stats.specs;
+
+  constructor(public stats: StatisticsService) {
     this.classes$ = combineLatest(
       this.reqTank$,
       this.reqHealer$,
@@ -58,7 +63,8 @@ export class HomeComponent {
       this.survivability$,
       this.versatility$,
       this.mobility$,
-      this.utility$
+      this.utility$,
+      this.specStats$
     ).pipe(
       map((x) => {
         const tank = x[0];
@@ -69,8 +75,9 @@ export class HomeComponent {
         const versatility = x[5];
         const mobility = x[6];
         const utility = x[7];
+        const specStatz = x[8];
 
-        return getDefaultClasses().filter((c) => {
+        let classes = getDefaultClasses().filter((c) => {
           const roles = [
             tank ? Role.Tank : undefined,
             healer ? Role.Healer : undefined,
@@ -106,14 +113,21 @@ export class HomeComponent {
 
           return true;
         });
-      }),
-      // map((x) => {
-      //   return x.length === 0 ? getDefaultClasses() : x;
-      // }),
-      tap((x) => {
-        // console.log(x);
+
+        classes = classes.map((c) => {
+          return {
+            ...c,
+            specStats: specStatz.find((ss) => ss.klass === c.name),
+          };
+        });
+
+        return classes;
       })
     );
+  }
+
+  ngOnInit() {
+    this.stats.gatherData();
   }
 
   reqRoleChanged(role: string, event) {

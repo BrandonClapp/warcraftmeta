@@ -1,3 +1,5 @@
+import { SpecStatistics } from 'src/app/statistics/models/SpecStatistics';
+
 export enum Role {
   Tank = 'tank',
   Healer = 'healer',
@@ -35,6 +37,7 @@ export interface Class {
   mobility: Mobility;
   utility: Utility;
   specs: string[];
+  specStats: SpecStatistics[];
 }
 
 export function getDefaultClasses(): Class[] {
@@ -48,6 +51,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Decent,
       utility: Utility.Great,
       specs: ['Restoration', 'Enhancement', 'Elemental'],
+      specStats: undefined,
     },
     {
       id: 'death-knight',
@@ -58,6 +62,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Bad,
       utility: Utility.Decent,
       specs: ['Blood', 'Frost', 'Unholy'],
+      specStats: undefined,
     },
     {
       id: 'demon-hunter',
@@ -68,6 +73,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Great,
       utility: Utility.Bad,
       specs: ['Vengeance', 'Havoc'],
+      specStats: undefined,
     },
     {
       id: 'warrior',
@@ -78,6 +84,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Great,
       utility: Utility.Decent,
       specs: ['Protection', 'Arms', 'Fury'],
+      specStats: undefined,
     },
     {
       id: 'warlock',
@@ -88,6 +95,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Bad,
       utility: Utility.Good,
       specs: ['Affliction', 'Demonolgy', 'Destruction'],
+      specStats: undefined,
     },
     {
       id: 'rogue',
@@ -98,6 +106,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Decent,
       utility: Utility.Bad,
       specs: ['Subtlty', 'Assassin', 'Outlaw'],
+      specStats: undefined,
     },
     {
       id: 'priest',
@@ -108,6 +117,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Bad,
       utility: Utility.Great,
       specs: ['Holy', 'Discipline', 'Shadow'],
+      specStats: undefined,
     },
     {
       id: 'paladin',
@@ -118,6 +128,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Bad,
       utility: Utility.Great,
       specs: ['Holy', 'Protection', 'Retribution'],
+      specStats: undefined,
     },
     {
       id: 'monk',
@@ -128,6 +139,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Great,
       utility: Utility.Bad,
       specs: ['Brewmaster', 'Mistweaver', 'Windwalker'],
+      specStats: undefined,
     },
     {
       id: 'mage',
@@ -138,6 +150,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Good,
       utility: Utility.Bad,
       specs: ['Fire', 'Frost', 'Arcane'],
+      specStats: undefined,
     },
     {
       id: 'hunter',
@@ -148,6 +161,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Great,
       utility: Utility.Bad,
       specs: ['Beast Mastery', 'Marksmanship', 'Survival'],
+      specStats: undefined,
     },
     {
       id: 'druid',
@@ -158,6 +172,7 @@ export function getDefaultClasses(): Class[] {
       mobility: Mobility.Good,
       utility: Utility.Good,
       specs: ['Guardian', 'Feral', 'Balance', 'Restoration'],
+      specStats: undefined,
     },
   ];
 }

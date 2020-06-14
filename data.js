@@ -3,21 +3,19 @@ const cheerio = require("cheerio");
 const _ = require("lodash");
 const fs = require("fs").promises;
 
-async function get3v3Bracket() {
-  const response = await Promise.all([
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=1"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=2"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=3"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=4"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=5"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=6"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=7"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=8"),
-    fetch("https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=9"),
-    fetch(
-      "https://worldofwarcraft.com/en-us/game/pvp/leaderboards/3v3?page=10"
-    ),
-  ]);
+async function getPvpBracket(bracket) {
+  const urls = [];
+  for (let page = 1; page <= 10; page++) {
+    urls.push(
+      `https://worldofwarcraft.com/en-us/game/pvp/leaderboards/${bracket}?page=${page}`
+    );
+  }
+
+  const response = await Promise.all(
+    urls.map((url) => {
+      return fetch(url);
+    })
+  );
   return response;
 }
 
@@ -37,8 +35,11 @@ async function parasePvpLeaderboardPage(page) {
       .split(" ");
     const realm = $(row).find(".SortTable-col").eq(5).text();
 
-    const spec = character[0];
-    const klass = character.slice(1, character.length).join(" ");
+    let spec = character[0];
+    let klass = character.slice(1, character.length).join(" ");
+
+    if (spec === "Beast") spec = "Beast Mastery";
+    if (klass === "Mastery Hunter") klass = "Hunter";
 
     // console.log(name, spec, klass, realm);
     if (name) {
@@ -55,33 +56,30 @@ async function parasePvpLeaderboardPage(page) {
   return players;
 }
 
-async function aggregatePvpBracket3() {
-  const response3 = await get3v3Bracket();
-  const threesPlayers = await Promise.all(
-    response3.map(async (page) => {
+async function aggregatePvpBracket(bracket) {
+  const responses = await getPvpBracket(bracket);
+  const players = await Promise.all(
+    responses.map(async (page) => {
       const players = await parasePvpLeaderboardPage(page);
       return players;
     })
   );
 
-  const allThrees = _.flatten(threesPlayers);
-  return allThrees;
+  const allPlayers = _.flatten(players);
+  return allPlayers;
 }
 
-async function writeData(threes) {
-  const data = {
-    pvp: {
-      "3v3": threes,
-    },
-  };
+async function writeData(fileName, threes) {
   await fs.writeFile(
-    __dirname + "/src/assets/data/test.json",
-    JSON.stringify(data)
+    __dirname + `/src/assets/data/${fileName}.json`,
+    JSON.stringify(threes)
   );
 }
 
 (async () => {
-  const threes = await aggregatePvpBracket3();
+  const threes = await aggregatePvpBracket("3v3");
+  const twos = await aggregatePvpBracket("2v2");
   // console.log(await pvp3page1.text());
-  await writeData(threes);
+  await writeData("3v3", threes);
+  await writeData("2v2", twos);
 })();
