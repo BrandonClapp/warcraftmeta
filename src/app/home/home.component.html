@@ -103,6 +103,29 @@
         </p>
 
         <mat-tab-group mat-align-tabs="start" [color]="'accent'" dynamicHeight>
+          <mat-tab label="M+">
+            <ul>
+              <li
+                class="tier-section"
+                style="font-weight: bold;"
+                *ngFor="let tier of (tierList$ | async).mplus"
+              >
+                <div class="tier-title" [class]="tierClass(tier.tier)">
+                  {{ tier.tier }} Tier
+                </div>
+                <ul class="tier-classes">
+                  <li
+                    [style.color]="getClassColor(spec.klass).bg"
+                    class="unit-frame"
+                    *ngFor="let spec of tier.specs"
+                  >
+                    <div>{{ spec.spec }}</div>
+                    <div>{{ spec.klass }}</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </mat-tab>
           <mat-tab label="3v3">
             <ul>
               <li
@@ -110,13 +133,12 @@
                 style="font-weight: bold;"
                 *ngFor="let tier of (tierList$ | async).threes"
               >
-                <div class="tier" [class]="tierClass(tier.tier)">
+                <div class="tier-title" [class]="tierClass(tier.tier)">
                   {{ tier.tier }} Tier
                 </div>
                 <ul class="tier-classes">
                   <li
                     [style.color]="getClassColor(spec.klass).bg"
-                    [style.border]="'1px solid ' + getClassColor(spec.klass).bg"
                     class="unit-frame"
                     *ngFor="let spec of tier.specs"
                   >
@@ -134,13 +156,12 @@
                 style="font-weight: bold;"
                 *ngFor="let tier of (tierList$ | async).twos"
               >
-                <div class="tier" [class]="tierClass(tier.tier)">
+                <div class="tier-title" [class]="tierClass(tier.tier)">
                   {{ tier.tier }} Tier
                 </div>
                 <ul class="tier-classes">
                   <li
                     [style.color]="getClassColor(spec.klass).bg"
-                    [style.border]="'1px solid ' + getClassColor(spec.klass).bg"
                     class="unit-frame"
                     *ngFor="let spec of tier.specs"
                   >
@@ -151,7 +172,7 @@
               </li>
             </ul>
           </mat-tab>
-          <mat-tab label="M+">Coming soon</mat-tab>
+
           <mat-tab label="Raiding">Coming soon</mat-tab>
         </mat-tab-group>
       </div>
@@ -179,7 +200,7 @@
         <div class="header">
           <div class="left">
             <img class="icon" src="/assets/{{ class.id }}.png" />
-            <div class="name" [style.color]="'#' + class.color">
+            <div class="name">
               {{ class.name }}
             </div>
           </div>
@@ -208,18 +229,24 @@
           </tr>
           <tr *ngFor="let spec of class.specStats">
             <td class="spec">{{ spec.spec }}</td>
-            <td>-</td>
+            <td [class]="tierClass(spec.mplusTier)">
+              {{
+                spec.mplus !== null
+                  ? (spec.percent.mplus | number: "1.1-1") + "%"
+                  : "-"
+              }}
+            </td>
             <td>-</td>
             <td [class]="tierClass(spec.twosTier)">
               {{
-                spec.twosTier
+                spec.twosTier !== null
                   ? (spec.percent.twos | number: "1.1-1") + "%"
                   : "-"
               }}
             </td>
             <td [class]="tierClass(spec.threesTier)">
               {{
-                spec.threesTier
+                spec.threesTier !== null
                   ? (spec.percent.threes | number: "1.1-1") + "%"
                   : "-"
               }}
@@ -272,13 +299,6 @@
 
         <h3>Spec Performance</h3>
 
-        <p>
-          Tiers are determined based on statistics gathered to compare class
-          percentage representation in each respective content type (M+, Mythic
-          Raiding, 3v3 Arena, 2v2 Arena). Spec tiers are relative to their role
-          (Tanking, Healing, Damage)
-        </p>
-
         <table class="performance">
           <tr>
             <th></th>
@@ -289,7 +309,11 @@
           </tr>
           <tr *ngFor="let spec of class.specStats">
             <th>{{ spec.spec }}</th>
-            <td></td>
+            <td>
+              <span class="tier tag" [class]="tierClass(spec.mplusTier)">{{
+                spec.mplusTier ? spec.mplusTier + " Tier" : "-"
+              }}</span>
+            </td>
             <td></td>
             <td>
               <span class="tier tag" [class]="tierClass(spec.twosTier)">{{

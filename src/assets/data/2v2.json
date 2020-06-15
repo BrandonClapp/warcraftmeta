@@ -28,7 +28,7 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Enhancement",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Caprise",
     "region": "US",
@@ -43,13 +43,6 @@
   },
   {
     "spec": "Holy",
-    "class": "Paladin",
-    "name": "Korlicbtw",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
-    "spec": "Shadow",
     "class": "Priest",
     "name": "Sprist",
     "region": "US",
@@ -68,6 +61,13 @@
     "name": "Brownbtw",
     "region": "US",
     "realm": "Black Dragonflight"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Korlicbtw",
+    "region": "US",
+    "realm": "Sargeras"
   },
   {
     "spec": "Mistweaver",
@@ -91,11 +91,25 @@
     "realm": "Area 52"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Tibbag",
+    "region": "US",
+    "realm": "Kel'Thuzad"
+  },
+  {
     "spec": "Survival",
     "class": "Hunter",
     "name": "Immvpbtw",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Nicklol",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Mistweaver",
@@ -110,13 +124,6 @@
     "name": "Itssavzyo",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Tibbag",
-    "region": "US",
-    "realm": "Kel'Thuzad"
   },
   {
     "spec": "Assassination",
@@ -140,18 +147,18 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Nicklol",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Holy",
     "class": "Priest",
     "name": "Turnip",
     "region": "US",
     "realm": "Dark Iron"
+  },
+  {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Neighbors",
+    "region": "US",
+    "realm": "Sargeras"
   },
   {
     "spec": "Assassination",
@@ -217,13 +224,6 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Nickthepala",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Maldivà",
@@ -238,6 +238,13 @@
     "realm": "Illidan"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Nickthepala",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Camelyo",
@@ -245,11 +252,11 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Neighbors",
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Missherhours",
     "region": "US",
-    "realm": "Sargeras"
+    "realm": "Frostmourne"
   },
   {
     "spec": "Holy",
@@ -322,7 +329,7 @@
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Grindie",
     "region": "US",
@@ -343,25 +350,11 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Restoration",
+    "spec": "Enhancement",
     "class": "Shaman",
     "name": "Zhangbeihai",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Usainboltx",
-    "region": "US",
-    "realm": "Kel'Thuzad"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Grandcannon",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Havoc",
@@ -378,21 +371,7 @@
     "realm": "Shadowmoon"
   },
   {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Missherhours",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Mongoloîd",
-    "region": "US",
-    "realm": "Stormrage"
-  },
-  {
-    "spec": "Havoc",
+    "spec": "Vengeance",
     "class": "Demon Hunter",
     "name": "Andrxw",
     "region": "US",
@@ -406,11 +385,32 @@
     "realm": "Kel'Thuzad"
   },
   {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Usainboltx",
+    "region": "US",
+    "realm": "Kel'Thuzad"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Wixzy",
     "region": "US",
     "realm": "Area 52"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Goreckj",
+    "region": "US",
+    "realm": "Mug'thol"
+  },
+  {
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Mongoloîd",
+    "region": "US",
+    "realm": "Stormrage"
   },
   {
     "spec": "Destruction",
@@ -427,9 +427,9 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Restoration",
-    "class": "Shaman",
-    "name": "Dyllbar",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Grandcannon",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -439,6 +439,13 @@
     "name": "Smxn",
     "region": "US",
     "realm": "Sargeras"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Maxbtw",
+    "region": "US",
+    "realm": "Stormrage"
   },
   {
     "spec": "Arms",
@@ -469,7 +476,14 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Arms",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Muchopower",
+    "region": "US",
+    "realm": "Bleeding Hollow"
+  },
+  {
+    "spec": "Fury",
     "class": "Warrior",
     "name": "Smexxin",
     "region": "US",
@@ -490,13 +504,6 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Nogàrd",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Cheeriosirl",
@@ -511,32 +518,11 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Protection",
-    "class": "Paladin",
-    "name": "Jjmamispice",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Goreckj",
-    "region": "US",
-    "realm": "Mug'thol"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Terodactyl",
     "region": "US",
     "realm": "Stormrage"
-  },
-  {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Evelynxc",
-    "region": "US",
-    "realm": "Illidan"
   },
   {
     "spec": "Holy",
@@ -546,11 +532,11 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Genjidh",
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Rehnar",
     "region": "US",
-    "realm": "Kel'Thuzad"
+    "realm": "Zul'jin"
   },
   {
     "spec": "Mistweaver",
@@ -560,14 +546,7 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Challengerz",
-    "region": "US",
-    "realm": "Suramar"
-  },
-  {
-    "spec": "Havoc",
+    "spec": "Vengeance",
     "class": "Demon Hunter",
     "name": "Rynnae",
     "region": "US",
@@ -579,6 +558,13 @@
     "name": "Khonm",
     "region": "US",
     "realm": "Proudmoore"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Shaman",
+    "name": "Dyllbar",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Discipline",
@@ -593,6 +579,13 @@
     "name": "Hansi",
     "region": "US",
     "realm": "Area 52"
+  },
+  {
+    "spec": "Protection",
+    "class": "Paladin",
+    "name": "Lumaca",
+    "region": "US",
+    "realm": "Stormrage"
   },
   {
     "spec": "Windwalker",
@@ -637,18 +630,11 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Brewmaster",
-    "class": "Monk",
-    "name": "Saipangxie",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Evelynxc",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Wingsproc",
-    "region": "US",
-    "realm": "Area 52"
   },
   {
     "spec": "Destruction",
@@ -665,6 +651,13 @@
     "realm": "Ravencrest"
   },
   {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Innerverse",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Zark",
@@ -672,14 +665,21 @@
     "realm": "Kel'Thuzad"
   },
   {
-    "spec": "Protection",
+    "spec": "Holy",
     "class": "Paladin",
-    "name": "Lumaca",
+    "name": "Sentt",
     "region": "US",
-    "realm": "Stormrage"
+    "realm": "Tichondrius"
   },
   {
-    "spec": "Discipline",
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Zenli",
+    "region": "US",
+    "realm": "Mal'Ganis"
+  },
+  {
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Tonybadass",
     "region": "US",
@@ -728,7 +728,7 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Mîzu",
     "region": "US",
@@ -770,13 +770,6 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Muchopower",
-    "region": "US",
-    "realm": "Bleeding Hollow"
-  },
-  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Borngood",
@@ -791,11 +784,18 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Vigarst",
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Nogàrd",
     "region": "US",
-    "realm": "Azralon"
+    "realm": "Area 52"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Cheekclappër",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Destruction",
@@ -803,13 +803,6 @@
     "name": "Popnloc",
     "region": "US",
     "realm": "Tichondrius"
-  },
-  {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "Eboy",
-    "region": "US",
-    "realm": "Thrall"
   },
   {
     "spec": "Shadow",
@@ -842,9 +835,23 @@
   {
     "spec": "Havoc",
     "class": "Demon Hunter",
-    "name": "Cynthadra",
+    "name": "Genjidh",
     "region": "US",
-    "realm": "Frostmourne"
+    "realm": "Kel'Thuzad"
+  },
+  {
+    "spec": "Mistweaver",
+    "class": "Monk",
+    "name": "Saipangxie",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Molluck",
+    "region": "US",
+    "realm": "Kel'Thuzad"
   },
   {
     "spec": "Destruction",
@@ -854,7 +861,28 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Outlaw",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Wealthyzy",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Boromwat",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Challengerz",
+    "region": "US",
+    "realm": "Suramar"
+  },
+  {
+    "spec": "Assassination",
     "class": "Rogue",
     "name": "Clarityr",
     "region": "US",
@@ -875,18 +903,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Xkziw",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Kasualkicks",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Xkziw",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Demonology",
@@ -901,13 +929,6 @@
     "name": "Bdkbloomkin",
     "region": "US",
     "realm": "Exodar"
-  },
-  {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Cheekclappër",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Holy",
@@ -931,11 +952,11 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Smíght",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Cynthadra",
     "region": "US",
-    "realm": "Thrall"
+    "realm": "Frostmourne"
   },
   {
     "spec": "Windwalker",
@@ -952,7 +973,7 @@
     "realm": "Khaz Modan"
   },
   {
-    "spec": "Retribution",
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Freejarrod",
     "region": "US",
@@ -966,21 +987,28 @@
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Feral",
-    "class": "Druid",
-    "name": "Rehnar",
-    "region": "US",
-    "realm": "Zul'jin"
-  },
-  {
     "spec": "Havoc",
     "class": "Demon Hunter",
-    "name": "Boromwat",
+    "name": "Sailynz",
+    "region": "US",
+    "realm": "Stormrage"
+  },
+  {
+    "spec": "Elemental",
+    "class": "Shaman",
+    "name": "Eboy",
+    "region": "US",
+    "realm": "Thrall"
+  },
+  {
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Beanslayerx",
     "region": "US",
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Talent",
     "region": "US",
@@ -994,18 +1022,18 @@
     "realm": "Illidan"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Harleywin",
+    "region": "US",
+    "realm": "Eldre'Thalas"
+  },
+  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Scooba",
     "region": "US",
     "realm": "Bleeding Hollow"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Norahh",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Destruction",
@@ -1043,11 +1071,11 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Maxbtw",
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Chinchy",
     "region": "US",
-    "realm": "Stormrage"
+    "realm": "Arygos"
   },
   {
     "spec": "Discipline",
@@ -1064,25 +1092,11 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Innerverse",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Crenix",
     "region": "US",
     "realm": "Stormreaver"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Sentt",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Destruction",
@@ -1097,13 +1111,6 @@
     "name": "Hudwinx",
     "region": "US",
     "realm": "Zul'jin"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Harleywin",
-    "region": "US",
-    "realm": "Eldre'Thalas"
   },
   {
     "spec": "Shadow",
@@ -1127,7 +1134,7 @@
     "realm": "Kil'jaeden"
   },
   {
-    "spec": "Shadow",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Tickix",
     "region": "US",
@@ -1141,7 +1148,7 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Restoration",
+    "spec": "Balance",
     "class": "Druid",
     "name": "Synn",
     "region": "US",
@@ -1153,13 +1160,6 @@
     "name": "Selfin",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Nessper",
-    "region": "US",
-    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Fire",
@@ -1176,14 +1176,21 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Retribution",
+    "spec": "Elemental",
+    "class": "Shaman",
+    "name": "Gonas",
+    "region": "US",
+    "realm": "Zul'jin"
+  },
+  {
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Xavster",
     "region": "US",
     "realm": "Silver Hand"
   },
   {
-    "spec": "Subtlety",
+    "spec": "Assassination",
     "class": "Rogue",
     "name": "Onco",
     "region": "US",
@@ -1195,6 +1202,13 @@
     "name": "Slipnslide",
     "region": "US",
     "realm": "Mal'Ganis"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Heckindoggø",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Unholy",
@@ -1211,11 +1225,25 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Heartsblood",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Elemental",
     "class": "Shaman",
     "name": "Rindolo",
     "region": "US",
     "realm": "Sargeras"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Courtman",
+    "region": "US",
+    "realm": "Nemesis"
   },
   {
     "spec": "Destruction",
@@ -1267,13 +1295,6 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Sailynz",
-    "region": "US",
-    "realm": "Stormrage"
-  },
-  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Justwoo",
@@ -1309,11 +1330,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Enhancement",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Imcaprise",
     "region": "US",
     "realm": "Sargeras"
+  },
+  {
+    "spec": "Holy",
+    "class": "Priest",
+    "name": "Ilovesix",
+    "region": "US",
+    "realm": "Nemesis"
   },
   {
     "spec": "Discipline",
@@ -1323,7 +1351,7 @@
     "realm": "Korgath"
   },
   {
-    "spec": "Enhancement",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Selketh",
     "region": "US",
@@ -1335,6 +1363,27 @@
     "name": "Welcomeback",
     "region": "US",
     "realm": "Area 52"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Killaks",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
+    "spec": "Retribution",
+    "class": "Paladin",
+    "name": "Jjmamispice",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Gíng",
+    "region": "US",
+    "realm": "Nemesis"
   },
   {
     "spec": "Unholy",
@@ -1365,25 +1414,11 @@
     "realm": "Mal'Ganis"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Molluck",
-    "region": "US",
-    "realm": "Kel'Thuzad"
-  },
-  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Tomato",
     "region": "US",
     "realm": "Azjol-Nerub"
-  },
-  {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Teikkenn",
-    "region": "US",
-    "realm": "Quel'Thalas"
   },
   {
     "spec": "Elemental",
@@ -1393,16 +1428,9 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Balance",
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Oxclamation",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Napples",
     "region": "US",
     "realm": "Area 52"
   },
@@ -1412,13 +1440,6 @@
     "name": "Anaírë",
     "region": "US",
     "realm": "Tichondrius"
-  },
-  {
-    "spec": "Outlaw",
-    "class": "Rogue",
-    "name": "Lycanthropiì",
-    "region": "US",
-    "realm": "Illidan"
   },
   {
     "spec": "Holy",
@@ -1442,6 +1463,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Tmborn",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Htg",
@@ -1454,20 +1482,6 @@
     "name": "Divinium",
     "region": "US",
     "realm": "Bleeding Hollow"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Wealthyzy",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Tmborn",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Unholy",
@@ -1484,7 +1498,14 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Mistweaver",
+    "class": "Monk",
+    "name": "Monsorry",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Retribution",
     "class": "Paladin",
     "name": "Chairlift",
     "region": "US",
@@ -1540,13 +1561,6 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Mydoriya",
-    "region": "US",
-    "realm": "Arthas"
-  },
-  {
     "spec": "Retribution",
     "class": "Paladin",
     "name": "Hadrionz",
@@ -1559,13 +1573,6 @@
     "name": "Thiccbolts",
     "region": "US",
     "realm": "Kargath"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Zenli",
-    "region": "US",
-    "realm": "Mal'Ganis"
   },
   {
     "spec": "Frost",
@@ -1582,7 +1589,7 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Balance",
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Eloriene",
     "region": "US",
@@ -1601,6 +1608,13 @@
     "name": "Xkf",
     "region": "US",
     "realm": "Emerald Dream"
+  },
+  {
+    "spec": "Subtlety",
+    "class": "Rogue",
+    "name": "Ronka",
+    "region": "US",
+    "realm": "Thunderlord"
   },
   {
     "spec": "Discipline",
@@ -1631,11 +1645,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Restoration",
+    "spec": "Elemental",
     "class": "Shaman",
     "name": "Chrodin",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Drakebtw",
+    "region": "US",
+    "realm": "Sargeras"
   },
   {
     "spec": "Havoc",
@@ -1661,37 +1682,9 @@
   {
     "spec": "Holy",
     "class": "Paladin",
-    "name": "Heartsblood",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
     "name": "Ezmodeglad",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Heckindoggø",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Monsorry",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "Hamshamovo",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Assassination",
@@ -1729,6 +1722,13 @@
     "realm": "Aegwynn"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Ezfakekick",
+    "region": "US",
+    "realm": "Zul'jin"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Monkwkiwdbi",
@@ -1743,6 +1743,13 @@
     "realm": "Alterac Mountains"
   },
   {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Drexia",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Demonology",
     "class": "Warlock",
     "name": "Kurodo",
@@ -1755,6 +1762,13 @@
     "name": "Skyfist",
     "region": "US",
     "realm": "Stormrage"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Wingsproc",
+    "region": "US",
+    "realm": "Area 52"
   },
   {
     "spec": "Havoc",
@@ -1785,11 +1799,32 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Norahh",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Kubyzy",
     "region": "US",
     "realm": "Kel'Thuzad"
+  },
+  {
+    "spec": "Mistweaver",
+    "class": "Monk",
+    "name": "Teikkenn",
+    "region": "US",
+    "realm": "Quel'Thalas"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Lycanthropiì",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Assassination",
@@ -1806,6 +1841,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Vigarst",
+    "region": "US",
+    "realm": "Azralon"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Mashedkms",
@@ -1820,25 +1862,11 @@
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Guardian",
-    "class": "Druid",
-    "name": "Beanslayerx",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Arms",
     "class": "Warrior",
     "name": "Tyrannius",
     "region": "US",
     "realm": "Ragnaros"
-  },
-  {
-    "spec": "Holy",
-    "class": "Priest",
-    "name": "Ilovesix",
-    "region": "US",
-    "realm": "Nemesis"
   },
   {
     "spec": "Holy",
@@ -1862,6 +1890,13 @@
     "realm": "Zul'jin"
   },
   {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Nessper",
+    "region": "US",
+    "realm": "Bleeding Hollow"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Ruz",
@@ -1876,21 +1911,14 @@
     "realm": "Bladefist"
   },
   {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Redemptiòn",
-    "region": "US",
-    "realm": "Shadowmoon"
-  },
-  {
-    "spec": "Mistweaver",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Sablè",
     "region": "US",
     "realm": "Zul'jin"
   },
   {
-    "spec": "Holy",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Mywifeisokay",
     "region": "US",
@@ -1911,7 +1939,7 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Restoration",
+    "spec": "Feral",
     "class": "Druid",
     "name": "Yigee",
     "region": "US",
@@ -1932,6 +1960,20 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Vexe",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Smíght",
+    "region": "US",
+    "realm": "Thrall"
+  },
+  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Kangaluu",
@@ -1944,6 +1986,13 @@
     "name": "Kigz",
     "region": "US",
     "realm": "Mal'Ganis"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Nåxah",
+    "region": "US",
+    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Havoc",
@@ -1967,13 +2016,6 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Courtman",
-    "region": "US",
-    "realm": "Nemesis"
-  },
-  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Unclejarrod",
@@ -1981,7 +2023,7 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Holy",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Xynryt",
     "region": "US",
@@ -2009,6 +2051,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Wizkdah",
+    "region": "US",
+    "realm": "Bleeding Hollow"
+  },
+  {
     "spec": "Fire",
     "class": "Mage",
     "name": "Xar",
@@ -2016,7 +2065,7 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Survival",
+    "spec": "Beast Mastery",
     "class": "Hunter",
     "name": "Vital",
     "region": "US",
@@ -2037,14 +2086,7 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Vexe",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Restoration",
+    "spec": "Elemental",
     "class": "Shaman",
     "name": "Takenotezz",
     "region": "US",
@@ -2056,6 +2098,13 @@
     "name": "Exsilium",
     "region": "US",
     "realm": "Stormrage"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Caijidh",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Assassination",
@@ -2086,18 +2135,25 @@
     "realm": "Destromath"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Alphamale",
+    "spec": "Restoration",
+    "class": "Shaman",
+    "name": "Hamshamovo",
     "region": "US",
-    "realm": "Balnazzar"
+    "realm": "Tichondrius"
   },
   {
-    "spec": "Havoc",
+    "spec": "Vengeance",
     "class": "Demon Hunter",
     "name": "Chaboi",
     "region": "US",
     "realm": "Mal'Ganis"
+  },
+  {
+    "spec": "Balance",
+    "class": "Druid",
+    "name": "Prev",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Restoration",
@@ -2114,11 +2170,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Feral",
-    "class": "Druid",
-    "name": "Gíng",
+    "spec": "Brewmaster",
+    "class": "Monk",
+    "name": "Derptap",
     "region": "US",
-    "realm": "Nemesis"
+    "realm": "Area 52"
   },
   {
     "spec": "Havoc",
@@ -2149,6 +2205,13 @@
     "realm": "Thrall"
   },
   {
+    "spec": "Fire",
+    "class": "Mage",
+    "name": "Hansol",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Kolompilot",
@@ -2156,18 +2219,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Frost",
-    "class": "Mage",
-    "name": "Cmd",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Stussyy",
     "region": "US",
     "realm": "Frostmourne"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Chinchy",
+    "spec": "Fire",
+    "class": "Mage",
+    "name": "Cmd",
     "region": "US",
-    "realm": "Arygos"
+    "realm": "Frostmourne"
   },
   {
     "spec": "Outlaw",
@@ -2177,14 +2240,7 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "Gonas",
-    "region": "US",
-    "realm": "Zul'jin"
-  },
-  {
-    "spec": "Elemental",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Dontsitonhim",
     "region": "US",
@@ -2219,13 +2275,6 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Billo",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Djdownie",
@@ -2254,6 +2303,13 @@
     "realm": "Stormreaver"
   },
   {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Bambitwo",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Slimyy",
@@ -2275,25 +2331,18 @@
     "realm": "Blackhand"
   },
   {
-    "spec": "Retribution",
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Tigranes",
     "region": "US",
     "realm": "Proudmoore"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Héádass",
     "region": "US",
     "realm": "Tichondrius"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Spoonwithyou",
-    "region": "US",
-    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Restoration",
@@ -2324,25 +2373,18 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Wizkdah",
-    "region": "US",
-    "realm": "Bleeding Hollow"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Destro",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Whiteoutsz",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Spoonwithyou",
+    "region": "US",
+    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Havoc",
@@ -2373,13 +2415,6 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Denker",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
     "spec": "Vengeance",
     "class": "Demon Hunter",
     "name": "Bajablasted",
@@ -2387,7 +2422,7 @@
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Restoration",
+    "spec": "Elemental",
     "class": "Shaman",
     "name": "Labrathor",
     "region": "US",
@@ -2415,7 +2450,7 @@
     "realm": "Kel'Thuzad"
   },
   {
-    "spec": "Frost",
+    "spec": "Unholy",
     "class": "Death Knight",
     "name": "Necrôtic",
     "region": "US",
@@ -2443,11 +2478,11 @@
     "realm": "Mal'Ganis"
   },
   {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Dipinmw",
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Redemptiòn",
     "region": "US",
-    "realm": "Illidan"
+    "realm": "Shadowmoon"
   },
   {
     "spec": "Havoc",
@@ -2455,6 +2490,13 @@
     "name": "Apotheös",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Smokepurppx",
+    "region": "US",
+    "realm": "Zul'jin"
   },
   {
     "spec": "Restoration",
@@ -2485,13 +2527,6 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Stussyy",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Chocomilke",
@@ -2506,18 +2541,18 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Subtlety",
-    "class": "Rogue",
-    "name": "Ronka",
-    "region": "US",
-    "realm": "Thunderlord"
-  },
-  {
     "spec": "Protection",
     "class": "Paladin",
     "name": "Meepin",
     "region": "US",
     "realm": "Eonar"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Unban",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Destruction",
@@ -2541,11 +2576,11 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Killaks",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Burnmedown",
     "region": "US",
-    "realm": "Illidan"
+    "realm": "Stormrage"
   },
   {
     "spec": "Restoration",
@@ -2555,7 +2590,7 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Assassination",
+    "spec": "Subtlety",
     "class": "Rogue",
     "name": "Probability",
     "region": "US",
@@ -2569,11 +2604,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Smokepurppx",
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Lynaya",
     "region": "US",
-    "realm": "Zul'jin"
+    "realm": "Illidan"
   },
   {
     "spec": "Havoc",
@@ -2581,13 +2616,6 @@
     "name": "Keyloose",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Fire",
-    "class": "Mage",
-    "name": "Hansol",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Assassination",
@@ -2604,11 +2632,11 @@
     "realm": "Draka"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Achikkess",
+    "spec": "Beast Mastery",
+    "class": "Hunter",
+    "name": "Saiiph",
     "region": "US",
-    "realm": "Darkspear"
+    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Retribution",
@@ -2646,6 +2674,20 @@
     "realm": "Elune"
   },
   {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Kíbå",
+    "region": "US",
+    "realm": "Dalaran"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Yakinori",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
     "spec": "Shadow",
     "class": "Priest",
     "name": "Garyoak",
@@ -2675,31 +2717,17 @@
   },
   {
     "spec": "Restoration",
-    "class": "Shaman",
-    "name": "Cdewsdog",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
-    "spec": "Restoration",
     "class": "Druid",
     "name": "Restokinaka",
     "region": "US",
     "realm": "Dreadmaul"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Printwarlock",
+    "spec": "Shadow",
+    "class": "Priest",
+    "name": "Napples",
     "region": "US",
-    "realm": "Azralon"
-  },
-  {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Mistpump",
-    "region": "US",
-    "realm": "Sargeras"
+    "realm": "Area 52"
   },
   {
     "spec": "Assassination",
@@ -2709,7 +2737,14 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Destro",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Brewmaster",
     "class": "Monk",
     "name": "Honeymustard",
     "region": "US",
@@ -2719,6 +2754,13 @@
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Babalíty",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Dynamitebobx",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -2779,6 +2821,13 @@
     "realm": "Area 52"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Shazpal",
+    "region": "US",
+    "realm": "Mal'Ganis"
+  },
+  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Nino",
@@ -2791,6 +2840,13 @@
     "name": "Zîb",
     "region": "US",
     "realm": "Bleeding Hollow"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Dannycarry",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Balance",
@@ -2807,11 +2863,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Brewmaster",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Sharkyo",
     "region": "US",
     "realm": "Area 52"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Shînobu",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Havoc",
@@ -2821,18 +2884,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Restokin",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Geekedup",
     "region": "US",
-    "realm": "Dreadmaul"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Drexia",
-    "region": "US",
-    "realm": "Tichondrius"
+    "realm": "Akama"
   },
   {
     "spec": "Restoration",
@@ -2849,11 +2905,11 @@
     "realm": "Blackhand"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Unban",
+    "spec": "Shadow",
+    "class": "Priest",
+    "name": "Tmwizk",
     "region": "US",
-    "realm": "Illidan"
+    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Holy",
@@ -2861,6 +2917,20 @@
     "name": "Otter",
     "region": "US",
     "realm": "Jubei'Thos"
+  },
+  {
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Yahj",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Fatqiu",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Windwalker",
@@ -2891,7 +2961,7 @@
     "realm": "Arthas"
   },
   {
-    "spec": "Enhancement",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Moogul",
     "region": "US",
@@ -2933,13 +3003,6 @@
     "realm": "Barthilas"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Burnmedown",
-    "region": "US",
-    "realm": "Stormrage"
-  },
-  {
     "spec": "Shadow",
     "class": "Priest",
     "name": "Zeromis",
@@ -2954,32 +3017,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Nåxah",
-    "region": "US",
-    "realm": "Bleeding Hollow"
-  },
-  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Pledx",
     "region": "US",
     "realm": "Area 52"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Lynaya",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Shînobu",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Unholy",
@@ -3003,18 +3045,25 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Shadow",
+    "spec": "Mistweaver",
+    "class": "Monk",
+    "name": "Mistpump",
+    "region": "US",
+    "realm": "Sargeras"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Restokin",
+    "region": "US",
+    "realm": "Dreadmaul"
+  },
+  {
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Uvar",
     "region": "US",
     "realm": "Frostmourne"
-  },
-  {
-    "spec": "Holy",
-    "class": "Priest",
-    "name": "Shmight",
-    "region": "US",
-    "realm": "Sargeras"
   },
   {
     "spec": "Mistweaver",
@@ -3031,7 +3080,7 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Arms",
+    "spec": "Fury",
     "class": "Warrior",
     "name": "Voostorm",
     "region": "US",
@@ -3073,6 +3122,13 @@
     "realm": "Area 52"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Araque",
+    "region": "US",
+    "realm": "Drakkari"
+  },
+  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Kroneckr",
@@ -3087,18 +3143,18 @@
     "realm": "Kel'Thuzad"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Zzôôxx",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Covidninetin",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Dillon",
+    "region": "US",
+    "realm": "Sargeras"
   },
   {
     "spec": "Holy",
@@ -3113,6 +3169,20 @@
     "name": "Algetest",
     "region": "US",
     "realm": "Blackrock"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Lilshinobi",
+    "region": "US",
+    "realm": "Shadowsong"
+  },
+  {
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Nidalee",
+    "region": "US",
+    "realm": "Stormrage"
   },
   {
     "spec": "Windwalker",
@@ -3136,6 +3206,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Arms",
+    "class": "Warrior",
+    "name": "Zakw",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
     "spec": "Unholy",
     "class": "Death Knight",
     "name": "Todesfaust",
@@ -3143,18 +3220,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Elemental",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Falç",
     "region": "US",
     "realm": "Proudmoore"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Bupar",
-    "region": "US",
-    "realm": "Area 52"
   },
   {
     "spec": "Retribution",
@@ -3185,11 +3255,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Derptap",
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Éndlessnight",
     "region": "US",
-    "realm": "Area 52"
+    "realm": "Tichondrius"
   },
   {
     "spec": "Discipline",
@@ -3206,13 +3276,6 @@
     "realm": "Spirestone"
   },
   {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Cxrry",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Rezzil",
@@ -3225,6 +3288,13 @@
     "name": "Çritical",
     "region": "US",
     "realm": "Emerald Dream"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Cursed",
+    "region": "US",
+    "realm": "Nemesis"
   },
   {
     "spec": "Holy",
@@ -3255,21 +3325,21 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Outplayedz",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
-    "spec": "Mistweaver",
+    "spec": "Brewmaster",
     "class": "Monk",
     "name": "Clapity",
     "region": "US",
     "realm": "Tichondrius"
   },
   {
-    "spec": "Elemental",
+    "spec": "Guardian",
+    "class": "Druid",
+    "name": "Laglordx",
+    "region": "US",
+    "realm": "Frostmourne"
+  },
+  {
+    "spec": "Enhancement",
     "class": "Shaman",
     "name": "Zool",
     "region": "US",
@@ -3281,6 +3351,13 @@
     "name": "Dçíöçk",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Budiika",
+    "region": "US",
+    "realm": "Ragnaros"
   },
   {
     "spec": "Restoration",
@@ -3318,18 +3395,11 @@
     "realm": "Ragnaros"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Kecub",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Cursed",
-    "region": "US",
-    "realm": "Nemesis"
   },
   {
     "spec": "Windwalker",
@@ -3355,37 +3425,30 @@
   {
     "spec": "Destruction",
     "class": "Warlock",
+    "name": "Boltgodx",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
     "name": "Conradlenoir",
     "region": "US",
     "realm": "Proudmoore"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Purefreak",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
-    "spec": "Holy",
+    "spec": "Retribution",
     "class": "Paladin",
     "name": "Globie",
     "region": "US",
     "realm": "Lightning's Blade"
   },
   {
-    "spec": "Retribution",
-    "class": "Paladin",
-    "name": "Shazpal",
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Outplayedz",
     "region": "US",
-    "realm": "Mal'Ganis"
-  },
-  {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Dannycarry",
-    "region": "US",
-    "realm": "Tichondrius"
+    "realm": "Sargeras"
   },
   {
     "spec": "Balance",
@@ -3393,13 +3456,6 @@
     "name": "Excite",
     "region": "US",
     "realm": "Tichondrius"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Kagero",
-    "region": "US",
-    "realm": "Sargeras"
   },
   {
     "spec": "Holy",
@@ -3416,25 +3472,18 @@
     "realm": "Azralon"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Iolcoruption",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Zzôôxx",
     "region": "US",
-    "realm": "Tichondrius"
+    "realm": "Sargeras"
   },
   {
-    "spec": "Feral",
+    "spec": "Balance",
     "class": "Druid",
     "name": "Alcorria",
     "region": "US",
     "realm": "Area 52"
-  },
-  {
-    "spec": "Retribution",
-    "class": "Paladin",
-    "name": "Whitekao",
-    "region": "US",
-    "realm": "Illidan"
   },
   {
     "spec": "Destruction",
@@ -3446,9 +3495,9 @@
   {
     "spec": "Holy",
     "class": "Paladin",
-    "name": "Dynamitebobx",
+    "name": "Antonio",
     "region": "US",
-    "realm": "Tichondrius"
+    "realm": "Sargeras"
   },
   {
     "spec": "Survival",
@@ -3456,6 +3505,13 @@
     "name": "Throwadox",
     "region": "US",
     "realm": "Mal'Ganis"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Bbqwing",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Holy",
@@ -3477,6 +3533,13 @@
     "name": "Urzu",
     "region": "US",
     "realm": "Hyjal"
+  },
+  {
+    "spec": "Balance",
+    "class": "Druid",
+    "name": "Musab",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Survival",
@@ -3509,19 +3572,12 @@
   {
     "spec": "Destruction",
     "class": "Warlock",
-    "name": "Aliez",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
     "name": "Nos",
     "region": "US",
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Brewmaster",
     "class": "Monk",
     "name": "Trancê",
     "region": "US",
@@ -3563,6 +3619,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Bjorngüd",
+    "region": "US",
+    "realm": "Mal'Ganis"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Illumitata",
@@ -3584,7 +3647,14 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Subtlety",
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Stergecub",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Assassination",
     "class": "Rogue",
     "name": "Qtilate",
     "region": "US",
@@ -3598,7 +3668,7 @@
     "realm": "Drakkari"
   },
   {
-    "spec": "Arms",
+    "spec": "Fury",
     "class": "Warrior",
     "name": "Tharatos",
     "region": "US",
@@ -3610,6 +3680,13 @@
     "name": "Diplî",
     "region": "US",
     "realm": "Korgath"
+  },
+  {
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Büddÿ",
+    "region": "US",
+    "realm": "Kel'Thuzad"
   },
   {
     "spec": "Holy",
@@ -3640,14 +3717,28 @@
     "realm": "Earthen Ring"
   },
   {
-    "spec": "Shadow",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Minihdp",
+    "region": "US",
+    "realm": "Ragnaros"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Licis",
+    "region": "US",
+    "realm": "Aggramar"
+  },
+  {
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Ogtkz",
     "region": "US",
     "realm": "Barthilas"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Littledragon",
     "region": "US",
@@ -3710,14 +3801,14 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Survival",
-    "class": "Hunter",
-    "name": "Dillon",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Denker",
     "region": "US",
-    "realm": "Sargeras"
+    "realm": "Frostmourne"
   },
   {
-    "spec": "Shadow",
+    "spec": "Holy",
     "class": "Priest",
     "name": "Quèénstar",
     "region": "US",
@@ -3729,20 +3820,6 @@
     "name": "Kamahlen",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Sperglørd",
-    "region": "US",
-    "realm": "Kel'Thuzad"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Araque",
-    "region": "US",
-    "realm": "Drakkari"
   },
   {
     "spec": "Holy",
@@ -3773,6 +3850,13 @@
     "realm": "Stormrage"
   },
   {
+    "spec": "Restoration",
+    "class": "Shaman",
+    "name": "Cdewsdog",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Rosedawn",
@@ -3801,21 +3885,21 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Brewmaster",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Maxww",
     "region": "US",
     "realm": "Stormrage"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Ezfakekick",
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Starfail",
     "region": "US",
-    "realm": "Zul'jin"
+    "realm": "Illidan"
   },
   {
-    "spec": "Blood",
+    "spec": "Unholy",
     "class": "Death Knight",
     "name": "Kyrasis",
     "region": "US",
@@ -3829,25 +3913,11 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Feral",
-    "class": "Druid",
-    "name": "Nidalee",
-    "region": "US",
-    "realm": "Stormrage"
-  },
-  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Dizl",
     "region": "US",
     "realm": "Tichondrius"
-  },
-  {
-    "spec": "Arms",
-    "class": "Warrior",
-    "name": "Zakw",
-    "region": "US",
-    "realm": "Illidan"
   },
   {
     "spec": "Holy",
@@ -3862,13 +3932,6 @@
     "name": "Denaldo",
     "region": "US",
     "realm": "Icecrown"
-  },
-  {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Lilshinobi",
-    "region": "US",
-    "realm": "Shadowsong"
   },
   {
     "spec": "Assassination",
@@ -3899,6 +3962,13 @@
     "realm": "Zul'jin"
   },
   {
+    "spec": "Holy",
+    "class": "Priest",
+    "name": "Purefreak",
+    "region": "US",
+    "realm": "Frostmourne"
+  },
+  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Mesw",
@@ -3925,13 +3995,6 @@
     "name": "Royland",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Balance",
-    "class": "Druid",
-    "name": "Dipi",
-    "region": "US",
-    "realm": "Korgath"
   },
   {
     "spec": "Havoc",
@@ -3962,20 +4025,6 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Tmwizk",
-    "region": "US",
-    "realm": "Bleeding Hollow"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Schmerz",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
     "spec": "Shadow",
     "class": "Priest",
     "name": "Meronsoda",
@@ -3997,18 +4046,18 @@
     "realm": "Icecrown"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Garoberegirl",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Balance",
     "class": "Druid",
     "name": "Showerhandle",
     "region": "US",
     "realm": "Alterac Mountains"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Locren",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Mistweaver",
@@ -4060,13 +4109,6 @@
     "realm": "Kel'Thuzad"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Thugonomicz",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Keyabop",
@@ -4102,13 +4144,6 @@
     "realm": "Quel'Thalas"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Stergecub",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Restoration",
     "class": "Shaman",
     "name": "Maeveycakes",
@@ -4123,7 +4158,7 @@
     "realm": "Cenarius"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Proxy",
     "region": "US",
@@ -4158,18 +4193,25 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Bambitwo",
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Doritox",
     "region": "US",
-    "realm": "Area 52"
+    "realm": "Sargeras"
   },
   {
-    "spec": "Survival",
-    "class": "Hunter",
-    "name": "Budiika",
+    "spec": "Subtlety",
+    "class": "Rogue",
+    "name": "Wètdream",
     "region": "US",
-    "realm": "Ragnaros"
+    "realm": "Darkspear"
+  },
+  {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Kagero",
+    "region": "US",
+    "realm": "Sargeras"
   },
   {
     "spec": "Protection",
@@ -4235,25 +4277,11 @@
     "realm": "Spirestone"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Bbqwing",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Desrabae",
     "region": "US",
     "realm": "Mal'Ganis"
-  },
-  {
-    "spec": "Balance",
-    "class": "Druid",
-    "name": "Musab",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Shadow",
@@ -4291,13 +4319,6 @@
     "realm": "Ragnaros"
   },
   {
-    "spec": "Survival",
-    "class": "Hunter",
-    "name": "Yahj",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Unamused",
@@ -4305,7 +4326,7 @@
     "realm": "Moon Guard"
   },
   {
-    "spec": "Survival",
+    "spec": "Marksmanship",
     "class": "Hunter",
     "name": "Yuck",
     "region": "US",
@@ -4326,6 +4347,13 @@
     "realm": "Sargeras"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Kãrmä",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Metta",
@@ -4342,13 +4370,6 @@
   {
     "spec": "Destruction",
     "class": "Warlock",
-    "name": "Djaango",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
     "name": "Deathslock",
     "region": "US",
     "realm": "Bladefist"
@@ -4361,14 +4382,7 @@
     "realm": "Stormrage"
   },
   {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "ßonevoyage",
-    "region": "US",
-    "realm": "Mal'Ganis"
-  },
-  {
-    "spec": "Balance",
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Drainean",
     "region": "US",
@@ -4380,13 +4394,6 @@
     "name": "Peepojuicer",
     "region": "US",
     "realm": "Frostmourne"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Antonio",
-    "region": "US",
-    "realm": "Sargeras"
   },
   {
     "spec": "Assassination",
@@ -4401,13 +4408,6 @@
     "name": "Øxý",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Dethyuss",
-    "region": "US",
-    "realm": "Kel'Thuzad"
   },
   {
     "spec": "Holy",
@@ -4473,18 +4473,18 @@
     "realm": "Mal'Ganis"
   },
   {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Xzz",
+    "region": "US",
+    "realm": "Kel'Thuzad"
+  },
+  {
     "spec": "Fire",
     "class": "Mage",
     "name": "Dpssbot",
     "region": "US",
     "realm": "Area 52"
-  },
-  {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Laglordx",
-    "region": "US",
-    "realm": "Frostmourne"
   },
   {
     "spec": "Windwalker",
@@ -4494,11 +4494,11 @@
     "realm": "Lothar"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Kãrmä",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Bushø",
     "region": "US",
-    "realm": "Area 52"
+    "realm": "Ragnaros"
   },
   {
     "spec": "Assassination",
@@ -4515,6 +4515,20 @@
     "realm": "Ragnaros"
   },
   {
+    "spec": "Shadow",
+    "class": "Priest",
+    "name": "Léilan",
+    "region": "US",
+    "realm": "Ragnaros"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Iolcoruption",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Arcane",
     "class": "Mage",
     "name": "Nightsaber",
@@ -4527,13 +4541,6 @@
     "name": "Fossilz",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Oliverxp",
-    "region": "US",
-    "realm": "Lightbringer"
   },
   {
     "spec": "Restoration",
@@ -4557,18 +4564,18 @@
     "realm": "Stormreaver"
   },
   {
+    "spec": "Holy",
+    "class": "Priest",
+    "name": "Darkängel",
+    "region": "US",
+    "realm": "Ragnaros"
+  },
+  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Palfy",
     "region": "US",
     "realm": "Zul'jin"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Utrheedd",
-    "region": "US",
-    "realm": "Drakkari"
   },
   {
     "spec": "Fire",
@@ -4627,7 +4634,7 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Retribution",
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Hickel",
     "region": "US",
@@ -4639,20 +4646,6 @@
     "name": "Hensong",
     "region": "US",
     "realm": "Mal'Ganis"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Boltgodx",
-    "region": "US",
-    "realm": "Area 52"
-  },
-  {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Winnoe",
-    "region": "US",
-    "realm": "Sargeras"
   },
   {
     "spec": "Enhancement",
@@ -4669,7 +4662,7 @@
     "realm": "Durotan"
   },
   {
-    "spec": "Discipline",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Yogosun",
     "region": "US",
@@ -4679,6 +4672,13 @@
     "spec": "Restoration",
     "class": "Druid",
     "name": "Shwaydru",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Pvpallyx",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -4697,14 +4697,14 @@
     "realm": "Dawnbringer"
   },
   {
-    "spec": "Feral",
-    "class": "Druid",
-    "name": "Bjorngüd",
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Zêzima",
     "region": "US",
-    "realm": "Mal'Ganis"
+    "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Mithfen",
     "region": "US",
@@ -4744,13 +4744,6 @@
     "name": "Factsx",
     "region": "US",
     "realm": "Area 52"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Zêzima",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Holy",
@@ -4823,14 +4816,14 @@
     "realm": "Mannoroth"
   },
   {
-    "spec": "Retribution",
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Ojwasguilty",
     "region": "US",
     "realm": "Mal'Ganis"
   },
   {
-    "spec": "Restoration",
+    "spec": "Feral",
     "class": "Druid",
     "name": "Bigbrownbear",
     "region": "US",
@@ -4865,13 +4858,6 @@
     "realm": "Dragonblight"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Minihdp",
-    "region": "US",
-    "realm": "Ragnaros"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Jmaclicious",
@@ -4879,7 +4865,7 @@
     "realm": "Dalaran"
   },
   {
-    "spec": "Holy",
+    "spec": "Protection",
     "class": "Paladin",
     "name": "ßò",
     "region": "US",
@@ -4928,6 +4914,13 @@
     "realm": "Moon Guard"
   },
   {
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Kasuxoxo",
+    "region": "US",
+    "realm": "Sargeras"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Dêluxe",
@@ -4949,11 +4942,11 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Guardian",
-    "class": "Druid",
-    "name": "Mxchael",
+    "spec": "Unholy",
+    "class": "Death Knight",
+    "name": "Sugardàddy",
     "region": "US",
-    "realm": "Tichondrius"
+    "realm": "Barthilas"
   },
   {
     "spec": "Outlaw",
@@ -4991,25 +4984,11 @@
     "realm": "Zul'jin"
   },
   {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Doritox",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
-    "spec": "Fire",
+    "spec": "Frost",
     "class": "Mage",
     "name": "Pigboy",
     "region": "US",
     "realm": "Stormrage"
-  },
-  {
-    "spec": "Beast Mastery",
-    "class": "Hunter",
-    "name": "Saiiph",
-    "region": "US",
-    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Elemental",
@@ -5024,13 +5003,6 @@
     "name": "Drbabadookmd",
     "region": "US",
     "realm": "Sargeras"
-  },
-  {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "Crazis",
-    "region": "US",
-    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Beast Mastery",
@@ -5061,6 +5033,13 @@
     "realm": "Arthas"
   },
   {
+    "spec": "Elemental",
+    "class": "Shaman",
+    "name": "Apyqtpi",
+    "region": "US",
+    "realm": "Sargeras"
+  },
+  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Tjdotter",
@@ -5075,6 +5054,13 @@
     "realm": "Emerald Dream"
   },
   {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Åeolian",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Milkyjamji",
@@ -5082,11 +5068,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Retribution",
-    "class": "Paladin",
-    "name": "Locren",
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Theswindler",
     "region": "US",
-    "realm": "Illidan"
+    "realm": "Proudmoore"
   },
   {
     "spec": "Discipline",
@@ -5110,7 +5096,7 @@
     "realm": "Mal'Ganis"
   },
   {
-    "spec": "Holy",
+    "spec": "Retribution",
     "class": "Paladin",
     "name": "Sonahegao",
     "region": "US",
@@ -5131,13 +5117,6 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Sugardàddy",
-    "region": "US",
-    "realm": "Barthilas"
-  },
-  {
     "spec": "Survival",
     "class": "Hunter",
     "name": "Define",
@@ -5152,7 +5131,7 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Retribution",
     "class": "Paladin",
     "name": "Empylol",
     "region": "US",
@@ -5201,6 +5180,13 @@
     "realm": "Kel'Thuzad"
   },
   {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Mojo",
+    "region": "US",
+    "realm": "Scilla"
+  },
+  {
     "spec": "Holy",
     "class": "Paladin",
     "name": "Lettiez",
@@ -5215,16 +5201,9 @@
     "realm": "Lothar"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Heffylol",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Akashani",
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Raiziel",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -5238,9 +5217,9 @@
   {
     "spec": "Discipline",
     "class": "Priest",
-    "name": "Hvnycomb",
+    "name": "Shmight",
     "region": "US",
-    "realm": "Stormrage"
+    "realm": "Sargeras"
   },
   {
     "spec": "Mistweaver",
@@ -5278,6 +5257,13 @@
     "realm": "Wyrmrest Accord"
   },
   {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Oneightsevn",
+    "region": "US",
+    "realm": "Sargeras"
+  },
+  {
     "spec": "Destruction",
     "class": "Warlock",
     "name": "Verinaughty",
@@ -5306,13 +5292,6 @@
     "realm": "Uldum"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Kíbå",
-    "region": "US",
-    "realm": "Dalaran"
-  },
-  {
     "spec": "Unholy",
     "class": "Death Knight",
     "name": "Psychotypal",
@@ -5334,9 +5313,9 @@
     "realm": "Darkspear"
   },
   {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Rainstopp",
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Akashani",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -5376,7 +5355,14 @@
     "realm": "Darkspear"
   },
   {
-    "spec": "Guardian",
+    "spec": "Arms",
+    "class": "Warrior",
+    "name": "Zedok",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Artanial",
     "region": "US",
@@ -5395,6 +5381,13 @@
     "name": "Tunda",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Dethyuss",
+    "region": "US",
+    "realm": "Kel'Thuzad"
   },
   {
     "spec": "Restoration",
@@ -5432,7 +5425,7 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Assassination",
+    "spec": "Outlaw",
     "class": "Rogue",
     "name": "Evitrix",
     "region": "US",
@@ -5469,6 +5462,13 @@
   {
     "spec": "Restoration",
     "class": "Shaman",
+    "name": "Brothermanw",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Shaman",
     "name": "Orbitalx",
     "region": "US",
     "realm": "Sargeras"
@@ -5481,16 +5481,30 @@
     "realm": "Illidan"
   },
   {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Printwarlock",
+    "region": "US",
+    "realm": "Azralon"
+  },
+  {
+    "spec": "Subtlety",
+    "class": "Rogue",
+    "name": "Isapp",
+    "region": "US",
+    "realm": "Bleeding Hollow"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Alphamale",
+    "region": "US",
+    "realm": "Balnazzar"
+  },
+  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Myokine",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Åeolian",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -5544,7 +5558,14 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Retribution",
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Wedidit",
+    "region": "US",
+    "realm": "Aggramar"
+  },
+  {
+    "spec": "Holy",
     "class": "Paladin",
     "name": "Justicebvr",
     "region": "US",
@@ -5565,6 +5586,13 @@
     "realm": "Tichondrius"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Rumbo",
+    "region": "US",
+    "realm": "Frostmourne"
+  },
+  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Därkk",
@@ -5572,7 +5600,7 @@
     "realm": "Azralon"
   },
   {
-    "spec": "Restoration",
+    "spec": "Balance",
     "class": "Druid",
     "name": "Luckkx",
     "region": "US",
@@ -5586,11 +5614,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Retribution",
     "class": "Paladin",
     "name": "Planetz",
     "region": "US",
     "realm": "Illidan"
+  },
+  {
+    "spec": "Elemental",
+    "class": "Shaman",
+    "name": "Crazis",
+    "region": "US",
+    "realm": "Bleeding Hollow"
   },
   {
     "spec": "Discipline",
@@ -5642,7 +5677,7 @@
     "realm": "Thrall"
   },
   {
-    "spec": "Retribution",
+    "spec": "Protection",
     "class": "Paladin",
     "name": "Handiboi",
     "region": "US",
@@ -5654,6 +5689,13 @@
     "name": "Zenquiesha",
     "region": "US",
     "realm": "Rivendare"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Therencce",
+    "region": "US",
+    "realm": "Azralon"
   },
   {
     "spec": "Restoration",
@@ -5684,7 +5726,7 @@
     "realm": "Dreadmaul"
   },
   {
-    "spec": "Holy",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Releyah",
     "region": "US",
@@ -5696,6 +5738,20 @@
     "name": "Brucebruce",
     "region": "US",
     "realm": "Cairne"
+  },
+  {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Garoberegirl",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Mistweaver",
+    "class": "Monk",
+    "name": "Ereshkigalts",
+    "region": "US",
+    "realm": "Tichondrius"
   },
   {
     "spec": "Windwalker",
@@ -5712,21 +5768,21 @@
     "realm": "Emerald Dream"
   },
   {
-    "spec": "Shadow",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Ashwalker",
     "region": "US",
     "realm": "Aggramar"
   },
   {
-    "spec": "Elemental",
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Cdew",
     "region": "US",
     "realm": "Tichondrius"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Dabio",
     "region": "US",
@@ -5752,6 +5808,13 @@
     "name": "Iushy",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Enhancement",
+    "class": "Shaman",
+    "name": "Chazzwozza",
+    "region": "US",
+    "realm": "Area 52"
   },
   {
     "spec": "Discipline",
@@ -5789,23 +5852,23 @@
     "realm": "Bleeding Hollow"
   },
   {
-    "spec": "Windwalker",
+    "spec": "Mistweaver",
     "class": "Monk",
     "name": "Kevo",
     "region": "US",
     "realm": "Stormrage"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Cesky",
+    "spec": "Protection",
+    "class": "Paladin",
+    "name": "Hazesh",
     "region": "US",
     "realm": "Azralon"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Hazesh",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Cesky",
     "region": "US",
     "realm": "Azralon"
   },
@@ -5824,11 +5887,18 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Shadow",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Marmoud",
     "region": "US",
     "realm": "Azralon"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Djaango",
+    "region": "US",
+    "realm": "Frostmourne"
   },
   {
     "spec": "Feral",
@@ -5838,7 +5908,7 @@
     "realm": "Azralon"
   },
   {
-    "spec": "Demonology",
+    "spec": "Destruction",
     "class": "Warlock",
     "name": "Isömetrics",
     "region": "US",
@@ -5908,6 +5978,27 @@
     "realm": "Azuremyst"
   },
   {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Billo",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Lethim",
+    "region": "US",
+    "realm": "Stormreaver"
+  },
+  {
+    "spec": "Survival",
+    "class": "Hunter",
+    "name": "Buffnac",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Ioki",
@@ -5915,11 +6006,32 @@
     "realm": "Kel'Thuzad"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Onlyaduelist",
+    "region": "US",
+    "realm": "Kel'Thuzad"
+  },
+  {
+    "spec": "Holy",
+    "class": "Priest",
+    "name": "Xvxvxvvxxvxv",
+    "region": "US",
+    "realm": "Frostmourne"
+  },
+  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Rickowensdh",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Khoii",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Restoration",
@@ -5950,6 +6062,13 @@
     "realm": "Zul'jin"
   },
   {
+    "spec": "Windwalker",
+    "class": "Monk",
+    "name": "Maxstriker",
+    "region": "US",
+    "realm": "Arthas"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Çhallenger",
@@ -5971,11 +6090,11 @@
     "realm": "Eitrigg"
   },
   {
-    "spec": "Elemental",
-    "class": "Shaman",
-    "name": "Apyqtpi",
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Chuckjones",
     "region": "US",
-    "realm": "Sargeras"
+    "realm": "Tichondrius"
   },
   {
     "spec": "Restoration",
@@ -5985,7 +6104,7 @@
     "realm": "Nemesis"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Jeperty",
     "region": "US",
@@ -6004,13 +6123,6 @@
     "name": "Gaspedal",
     "region": "US",
     "realm": "Kel'Thuzad"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Pvpallyx",
-    "region": "US",
-    "realm": "Tichondrius"
   },
   {
     "spec": "Windwalker",
@@ -6041,6 +6153,20 @@
     "realm": "Kil'jaeden"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Bahnjoru",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Hollian",
+    "region": "US",
+    "realm": "Stormreaver"
+  },
+  {
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Lightzôut",
@@ -6055,14 +6181,14 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Destruction",
-    "class": "Warlock",
-    "name": "Bushø",
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Zeshyshifts",
     "region": "US",
-    "realm": "Ragnaros"
+    "realm": "Stormrage"
   },
   {
-    "spec": "Balance",
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Yoona",
     "region": "US",
@@ -6083,11 +6209,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Léilan",
+    "spec": "Feral",
+    "class": "Druid",
+    "name": "Ërebüs",
     "region": "US",
-    "realm": "Ragnaros"
+    "realm": "Emerald Dream"
   },
   {
     "spec": "Assassination",
@@ -6125,6 +6251,20 @@
     "realm": "Area 52"
   },
   {
+    "spec": "Restoration",
+    "class": "Shaman",
+    "name": "Bigfknilli",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
+    "spec": "Assassination",
+    "class": "Rogue",
+    "name": "Ypine",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Ekrislol",
@@ -6160,7 +6300,14 @@
     "realm": "Proudmoore"
   },
   {
-    "spec": "Elemental",
+    "spec": "Shadow",
+    "class": "Priest",
+    "name": "Los",
+    "region": "US",
+    "realm": "Lightbringer"
+  },
+  {
+    "spec": "Restoration",
     "class": "Shaman",
     "name": "Ilinku",
     "region": "US",
@@ -6181,6 +6328,13 @@
     "realm": "Stormrage"
   },
   {
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Utrheedd",
+    "region": "US",
+    "realm": "Drakkari"
+  },
+  {
     "spec": "Restoration",
     "class": "Shaman",
     "name": "Vasilchenko",
@@ -6193,6 +6347,13 @@
     "name": "Rhenzy",
     "region": "US",
     "realm": "Tichondrius"
+  },
+  {
+    "spec": "Discipline",
+    "class": "Priest",
+    "name": "Hvnycomb",
+    "region": "US",
+    "realm": "Stormrage"
   },
   {
     "spec": "Guardian",
@@ -6237,7 +6398,14 @@
     "realm": "Azralon"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Trainindummy",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Sushiroll",
     "region": "US",
@@ -6279,13 +6447,6 @@
     "realm": "Illidan"
   },
   {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Monkzz",
-    "region": "US",
-    "realm": "Mal'Ganis"
-  },
-  {
     "spec": "Havoc",
     "class": "Demon Hunter",
     "name": "Psychox",
@@ -6321,6 +6482,20 @@
     "realm": "Area 52"
   },
   {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Winnoe",
+    "region": "US",
+    "realm": "Sargeras"
+  },
+  {
+    "spec": "Restoration",
+    "class": "Druid",
+    "name": "Toonah",
+    "region": "US",
+    "realm": "Area 52"
+  },
+  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Aidenr",
@@ -6333,13 +6508,6 @@
     "name": "Druiddzy",
     "region": "US",
     "realm": "Illidan"
-  },
-  {
-    "spec": "Holy",
-    "class": "Priest",
-    "name": "Darkängel",
-    "region": "US",
-    "realm": "Ragnaros"
   },
   {
     "spec": "Retribution",
@@ -6398,23 +6566,9 @@
     "realm": "Mal'Ganis"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Ericxd",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
     "spec": "Assassination",
     "class": "Rogue",
     "name": "Shìzz",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Chuckjones",
     "region": "US",
     "realm": "Tichondrius"
   },
@@ -6433,14 +6587,7 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Subtlety",
-    "class": "Rogue",
-    "name": "Wètdream",
-    "region": "US",
-    "realm": "Darkspear"
-  },
-  {
-    "spec": "Havoc",
+    "spec": "Vengeance",
     "class": "Demon Hunter",
     "name": "Honeynutc",
     "region": "US",
@@ -6452,6 +6599,13 @@
     "name": "Dustydh",
     "region": "US",
     "realm": "Zul'jin"
+  },
+  {
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Bupar",
+    "region": "US",
+    "realm": "Area 52"
   },
   {
     "spec": "Elemental",
@@ -6517,20 +6671,6 @@
     "realm": "Moon Guard"
   },
   {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Los",
-    "region": "US",
-    "realm": "Lightbringer"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Hotáf",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
     "spec": "Windwalker",
     "class": "Monk",
     "name": "Murdabtw",
@@ -6538,18 +6678,11 @@
     "realm": "Tichondrius"
   },
   {
-    "spec": "Holy",
+    "spec": "Discipline",
     "class": "Priest",
     "name": "Mattycat",
     "region": "US",
     "realm": "Nazjatar"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Iucidx",
-    "region": "US",
-    "realm": "Feathermoon"
   },
   {
     "spec": "Survival",
@@ -6580,13 +6713,6 @@
     "realm": "Barthilas"
   },
   {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Khoii",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
     "spec": "Restoration",
     "class": "Druid",
     "name": "Goreckis",
@@ -6594,14 +6720,14 @@
     "realm": "Mug'thol"
   },
   {
-    "spec": "Discipline",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Alistrix",
     "region": "US",
     "realm": "Frostmourne"
   },
   {
-    "spec": "Assassination",
+    "spec": "Outlaw",
     "class": "Rogue",
     "name": "Shazzarev",
     "region": "US",
@@ -6643,7 +6769,7 @@
     "realm": "Exodar"
   },
   {
-    "spec": "Balance",
+    "spec": "Guardian",
     "class": "Druid",
     "name": "Druishprincs",
     "region": "US",
@@ -6657,7 +6783,14 @@
     "realm": "Frostmourne"
   },
   {
-    "spec": "Shadow",
+    "spec": "Havoc",
+    "class": "Demon Hunter",
+    "name": "Smalldam",
+    "region": "US",
+    "realm": "Illidan"
+  },
+  {
+    "spec": "Holy",
     "class": "Priest",
     "name": "Xktmznls",
     "region": "US",
@@ -6699,11 +6832,11 @@
     "realm": "Proudmoore"
   },
   {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Onlyaduelist",
+    "spec": "Destruction",
+    "class": "Warlock",
+    "name": "Cux",
     "region": "US",
-    "realm": "Kel'Thuzad"
+    "realm": "Mal'Ganis"
   },
   {
     "spec": "Retribution",
@@ -6720,7 +6853,14 @@
     "realm": "Hyjal"
   },
   {
-    "spec": "Feral",
+    "spec": "Holy",
+    "class": "Paladin",
+    "name": "Avriam",
+    "region": "US",
+    "realm": "Nemesis"
+  },
+  {
+    "spec": "Restoration",
     "class": "Druid",
     "name": "Gushingnb",
     "region": "US",
@@ -6734,13 +6874,6 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Theswindler",
-    "region": "US",
-    "realm": "Proudmoore"
-  },
-  {
     "spec": "Retribution",
     "class": "Paladin",
     "name": "Shajinka",
@@ -6748,11 +6881,25 @@
     "realm": "Sargeras"
   },
   {
+    "spec": "Frost",
+    "class": "Death Knight",
+    "name": "Rainstopp",
+    "region": "US",
+    "realm": "Tichondrius"
+  },
+  {
     "spec": "Demonology",
     "class": "Warlock",
     "name": "One",
     "region": "US",
     "realm": "Azuremyst"
+  },
+  {
+    "spec": "Fire",
+    "class": "Mage",
+    "name": "Morphasized",
+    "region": "US",
+    "realm": "Illidan"
   },
   {
     "spec": "Unholy",
@@ -6769,28 +6916,14 @@
     "realm": "Sargeras"
   },
   {
-    "spec": "Mistweaver",
+    "spec": "Windwalker",
     "class": "Monk",
     "name": "Goshim",
     "region": "US",
     "realm": "Illidan"
   },
   {
-    "spec": "Restoration",
-    "class": "Druid",
-    "name": "Mojo",
-    "region": "US",
-    "realm": "Scilla"
-  },
-  {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Geekedup",
-    "region": "US",
-    "realm": "Akama"
-  },
-  {
-    "spec": "Fury",
+    "spec": "Arms",
     "class": "Warrior",
     "name": "Magnuszx",
     "region": "US",
@@ -6839,14 +6972,14 @@
     "realm": "Area 52"
   },
   {
-    "spec": "Restoration",
+    "spec": "Elemental",
     "class": "Shaman",
     "name": "Willyum",
     "region": "US",
     "realm": "Zul'jin"
   },
   {
-    "spec": "Holy",
+    "spec": "Shadow",
     "class": "Priest",
     "name": "Eilailaida",
     "region": "US",
@@ -6863,139 +6996,6 @@
     "spec": "Mistweaver",
     "class": "Monk",
     "name": "Karizifist",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Shadow",
-    "class": "Priest",
-    "name": "Heimerr",
-    "region": "US",
-    "realm": "Thrall"
-  },
-  {
-    "spec": "Havoc",
-    "class": "Demon Hunter",
-    "name": "Caijidh",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Nexxarr",
-    "region": "US",
-    "realm": "Sargeras"
-  },
-  {
-    "spec": "Assassination",
-    "class": "Rogue",
-    "name": "Øbito",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Holy",
-    "class": "Priest",
-    "name": "Angelforcez",
-    "region": "US",
-    "realm": "Frostmourne"
-  },
-  {
-    "spec": "Windwalker",
-    "class": "Monk",
-    "name": "Lightimus",
-    "region": "US",
-    "realm": "Zul'jin"
-  },
-  {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Jadestormz",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Feral",
-    "class": "Druid",
-    "name": "Ävarìcegodx",
-    "region": "US",
-    "realm": "Stormscale"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Nifx",
-    "region": "US",
-    "realm": "Bleeding Hollow"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Paladinssds",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Balance",
-    "class": "Druid",
-    "name": "Starfail",
-    "region": "US",
-    "realm": "Illidan"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Xzz",
-    "region": "US",
-    "realm": "Kel'Thuzad"
-  },
-  {
-    "spec": "Holy",
-    "class": "Paladin",
-    "name": "Remlints",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Arms",
-    "class": "Warrior",
-    "name": "Schonkopf",
-    "region": "US",
-    "realm": "Moon Guard"
-  },
-  {
-    "spec": "Mistweaver",
-    "class": "Monk",
-    "name": "Peekabrew",
-    "region": "US",
-    "realm": "Mal'Ganis"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Oohoo",
-    "region": "US",
-    "realm": "Barthilas"
-  },
-  {
-    "spec": "Arms",
-    "class": "Warrior",
-    "name": "Killarn",
-    "region": "US",
-    "realm": "Tichondrius"
-  },
-  {
-    "spec": "Discipline",
-    "class": "Priest",
-    "name": "Listenhere",
-    "region": "US",
-    "realm": "Kel'Thuzad"
-  },
-  {
-    "spec": "Unholy",
-    "class": "Death Knight",
-    "name": "Éndlessnight",
     "region": "US",
     "realm": "Tichondrius"
   }

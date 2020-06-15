@@ -1,9 +1,8 @@
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 const _ = require("lodash");
-const fs = require("fs").promises;
 
-async function getPvpBracket(bracket) {
+async function getCurrentPvpLeaderboardResults(bracket) {
   const urls = [];
   for (let page = 1; page <= 10; page++) {
     urls.push(
@@ -19,7 +18,7 @@ async function getPvpBracket(bracket) {
   return response;
 }
 
-async function parasePvpLeaderboardPage(page) {
+async function parsePvpLeaderboardPage(page) {
   const html = await page.text();
   const $ = cheerio.load(html);
 
@@ -57,10 +56,10 @@ async function parasePvpLeaderboardPage(page) {
 }
 
 async function aggregatePvpBracket(bracket) {
-  const responses = await getPvpBracket(bracket);
+  const responses = await getCurrentPvpLeaderboardResults(bracket);
   const players = await Promise.all(
     responses.map(async (page) => {
-      const players = await parasePvpLeaderboardPage(page);
+      const players = await parsePvpLeaderboardPage(page);
       return players;
     })
   );
@@ -69,17 +68,6 @@ async function aggregatePvpBracket(bracket) {
   return allPlayers;
 }
 
-async function writeData(fileName, threes) {
-  await fs.writeFile(
-    __dirname + `/src/assets/data/${fileName}.json`,
-    JSON.stringify(threes)
-  );
-}
-
-(async () => {
-  const threes = await aggregatePvpBracket("3v3");
-  const twos = await aggregatePvpBracket("2v2");
-  // console.log(await pvp3page1.text());
-  await writeData("3v3", threes);
-  await writeData("2v2", twos);
-})();
+module.exports = {
+  aggregatePvpBracket,
+};

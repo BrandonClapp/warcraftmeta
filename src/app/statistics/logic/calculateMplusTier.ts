@@ -2,16 +2,12 @@ import { getRole } from './getRole';
 import { Role } from '../models/Role';
 import { getRoleSpecs } from './getRoleSpecs';
 
-export function calculatePvpTier(
+export function calculateMplusTier(
   klass: string,
   spec: string,
   percentage: number
 ) {
   const role = getRole(klass, spec);
-
-  if (role === Role.Tank) {
-    return null;
-  }
 
   const roleSpecs = getRoleSpecs(role);
   const average = 100 / roleSpecs.length;

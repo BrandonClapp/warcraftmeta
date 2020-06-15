@@ -3,6 +3,7 @@ import { getRoleSpecs } from '../logic/getRoleSpecs';
 import { getRole } from '../logic/getRole';
 import { Role } from './Role';
 import { calculatePvpTier } from '../logic/calculatePvpTier';
+import { calculateMplusTier } from '../logic/calculateMplusTier';
 
 export class SpecStatistics {
   // new SpecStatistics('warrior', 'arms', '84/1000', '75/1000', '100/500', '204/500')
@@ -32,11 +33,17 @@ export class SpecStatistics {
       twos: (this.twos / this.twosSampleSize) * 100,
       threes: (this.threes / this.threesSampleSize) * 100,
       raiding: null,
-      mplus: null,
+      mplus: (this.mplus / this.mplusSampleSize) * 100,
     };
 
     // Calculate tier
     this.twosTier = calculatePvpTier(this.klass, this.spec, this.percent.twos);
+    this.mplusTier = calculateMplusTier(
+      this.klass,
+      this.spec,
+      this.percent.mplus
+    );
+
     console.log(
       '2v2',
       this.klass,

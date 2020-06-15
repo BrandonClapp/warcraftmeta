@@ -46,9 +46,10 @@
 
     > .header {
       font-size: 1.3em;
-      background: #3a506b;
+      background: #0c132b;
       padding: 0.5em;
       border-bottom: 1px solid #6fffe9;
+      color: #6effe9;
     }
 
     .footer {
@@ -117,6 +118,7 @@
 
     .spec {
       text-align: left;
+      min-width: 100px;
     }
   }
 
@@ -178,6 +180,12 @@ ul.tier-classes {
     align-items: center;
     line-height: 1.4em;
     text-shadow: 0px 0px 5px #2b2b2b;
+    cursor: default;
+    border: 1px solid #3a506b;
+
+    &:hover {
+      background-color: #050813;
+    }
   }
 }
 
@@ -194,30 +202,42 @@ ul.tier-classes {
   margin-bottom: 0.5em;
 }
 
+.tier-title {
+  text-align: left !important;
+  background-color: inherit !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  color: #fff !important;
+  margin-bottom: 1em !important;
+  padding: 0.5em !important;
+}
+
 .tag {
   font-size: 0.9em;
   text-transform: uppercase;
   font-weight: bold;
 }
 
+$base-heatmap: #6fff76;
 .s-tier {
-  $bg: #4ebd2c;
+  $bg: #539a6f;
   border: 1px solid lighten($bg, 10%);
   background-color: $bg;
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
 .a-tier {
-  $bg: #8fd37a;
+  $bg: #85b58a;
   border: 1px solid lighten($bg, 10%);
   background-color: $bg;
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
 .b-tier {
-  $bg: #deda61;
+  $bg: #dadada;
   border: 1px solid lighten($bg, 10%);
   background-color: $bg;
   color: #000;
@@ -225,18 +245,18 @@ ul.tier-classes {
 }
 
 .c-tier {
-  $bg: #de8261;
+  $bg: #b98274;
   border: 1px solid lighten($bg, 10%);
   background-color: $bg;
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
 .d-tier {
-  $bg: #e85656;
+  $bg: #92484f;
   border: 1px solid lighten($bg, 10%);
   background-color: $bg;
-  color: #000;
+  color: #fff;
   text-align: center;
 }
 
@@ -304,4 +324,12 @@ hr {
 ::ng-deep .mat-tab-body-content {
   background: darken(#0c142b, 3%);
   padding: 1em;
+}
+
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #6fffe9 !important;
+}
+
+::ng-deep .mat-progress-bar-buffer {
+  background-color: #0b132b;
 }

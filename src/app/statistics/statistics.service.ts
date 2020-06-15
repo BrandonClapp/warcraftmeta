@@ -34,6 +34,13 @@ export class StatisticsService {
           { tier: 'C', specs: specStats.filter((ss) => ss.threesTier === 'C') },
           { tier: 'D', specs: specStats.filter((ss) => ss.threesTier === 'D') },
         ],
+        mplus: [
+          { tier: 'S', specs: specStats.filter((ss) => ss.mplusTier === 'S') },
+          { tier: 'A', specs: specStats.filter((ss) => ss.mplusTier === 'A') },
+          { tier: 'B', specs: specStats.filter((ss) => ss.mplusTier === 'B') },
+          { tier: 'C', specs: specStats.filter((ss) => ss.mplusTier === 'C') },
+          { tier: 'D', specs: specStats.filter((ss) => ss.mplusTier === 'D') },
+        ],
       };
     })
   );
@@ -43,21 +50,29 @@ export class StatisticsService {
   public gatherData() {
     const sub = combineLatest(
       this.http.get<PlayerRecord[]>('/assets/data/2v2.json'),
-      this.http.get<PlayerRecord[]>('/assets/data/3v3.json')
+      this.http.get<PlayerRecord[]>('/assets/data/3v3.json'),
+      this.http.get<PlayerRecord[]>('/assets/data/full-mplus.json')
     ).subscribe((results) => {
-      const [twos, threes] = results;
-      this.calculateStatistics(twos, threes);
+      const [twos, threes, mplus] = results;
+      this.calculateStatistics(twos, threes, mplus);
       sub.unsubscribe();
     });
   }
 
-  private calculateStatistics(twos: PlayerRecord[], threes: PlayerRecord[]) {
+  private calculateStatistics(
+    twos: PlayerRecord[],
+    threes: PlayerRecord[],
+    mplus: PlayerRecord[]
+  ) {
     const specs = getSpecs();
     const calculated = [];
 
     specs.forEach((spec) => {
-      const twosRatio = this.calculatePvpStats(twos, spec);
-      const threesRatio = this.calculatePvpStats(threes, spec);
+      const twosRatio = this.calculateRatio(twos, spec);
+      const threesRatio = this.calculateRatio(threes, spec);
+      const mplusRatio = this.calculateRatio(mplus, spec);
+
+      console.log('mplusRatio', mplusRatio);
 
       let stats = new SpecStatistics(
         spec.class,
@@ -65,15 +80,17 @@ export class StatisticsService {
         twosRatio,
         threesRatio,
         '2/10',
-        '3/10'
+        mplusRatio
       );
+
+      console.log('stats', stats);
 
       calculated.push(stats);
     });
     this.specs.next(calculated);
   }
 
-  private calculatePvpStats(players: PlayerRecord[], spec: SpecDefinition) {
+  private calculateRatio(players: PlayerRecord[], spec: SpecDefinition) {
     const { healers, damage, tanks } = organizePlayers(players);
 
     const total = players.filter(
