@@ -1,5 +1,5 @@
 <div class="heading">
-  Class statistics last updated on <strong>June 12, 2020 at 7:49 CDT</strong>
+  Class statistics last updated on <strong>June 14, 2020 at 5:00 CDT</strong>
 </div>
 <div class="panels">
   <div>
@@ -95,49 +95,64 @@
       <div class="header">Tier List</div>
       <div class="content tier-list">
         <p>
-          Based on the top 500 players in each category (M+, Mythic Raiding, and
-          Arenas), this is the class/spec representation.
+          Tiers are determined based on spec respresentation of the top rated
+          players in each respective content type (M+, Mythic Raiding, 3v3
+          Arena, 2v2 Arena). Higher tiers represent a higher percentage of top
+          rated players playing that spec in that role compared to other specs
+          that fill that role.
         </p>
 
         <mat-tab-group mat-align-tabs="start" [color]="'accent'" dynamicHeight>
-          <mat-tab label="M+">
-            <h3>Tanks</h3>
+          <mat-tab label="3v3">
             <ul>
-              <li>
-                <span class="tier s-tier">S Tier</span>
-                <ul>
-                  <li>Brewmaster Monk, Protection Warrior</li>
+              <li
+                class="tier-section"
+                style="font-weight: bold;"
+                *ngFor="let tier of (tierList$ | async).threes"
+              >
+                <div class="tier" [class]="tierClass(tier.tier)">
+                  {{ tier.tier }} Tier
+                </div>
+                <ul class="tier-classes">
+                  <li
+                    [style.color]="getClassColor(spec.klass).bg"
+                    [style.border]="'1px solid ' + getClassColor(spec.klass).bg"
+                    class="unit-frame"
+                    *ngFor="let spec of tier.specs"
+                  >
+                    <div>{{ spec.spec }}</div>
+                    <div>{{ spec.klass }}</div>
+                  </li>
                 </ul>
               </li>
-              <li>
-                <span class="tier a-tier">A Tier</span>
-                <ul>
-                  <li>Protection Paladin, Blood Death Knight</li>
-                </ul>
-              </li>
-              <li>
-                <span class="tier f-tier">F Tier</span>
-                <ul>
-                  <li>Guardian Druid</li>
-                </ul>
-              </li>
-            </ul>
-            <h3>Healers</h3>
-            <ul>
-              <li><span class="tier s-tier">S Tier</span></li>
-              <li><span class="tier a-tier">A Tier</span></li>
-              <li><span class="tier f-tier">F Tier</span></li>
-            </ul>
-            <h3>DPS</h3>
-            <ul>
-              <li><span class="tier s-tier">S Tier</span></li>
-              <li><span class="tier a-tier">A Tier</span></li>
-              <li><span class="tier f-tier">F Tier</span></li>
             </ul>
           </mat-tab>
-          <mat-tab label="Raiding">Content 2</mat-tab>
-          <mat-tab label="3v3">Content 2</mat-tab>
-          <mat-tab label="2v2">Content 2</mat-tab>
+          <mat-tab label="2v2">
+            <ul>
+              <li
+                class="tier-section"
+                style="font-weight: bold;"
+                *ngFor="let tier of (tierList$ | async).twos"
+              >
+                <div class="tier" [class]="tierClass(tier.tier)">
+                  {{ tier.tier }} Tier
+                </div>
+                <ul class="tier-classes">
+                  <li
+                    [style.color]="getClassColor(spec.klass).bg"
+                    [style.border]="'1px solid ' + getClassColor(spec.klass).bg"
+                    class="unit-frame"
+                    *ngFor="let spec of tier.specs"
+                  >
+                    <div>{{ spec.spec }}</div>
+                    <div>{{ spec.klass }}</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </mat-tab>
+          <mat-tab label="M+">Coming soon</mat-tab>
+          <mat-tab label="Raiding">Coming soon</mat-tab>
         </mat-tab-group>
       </div>
     </div>
@@ -186,24 +201,31 @@
           </tr>
           <tr>
             <td class="spec">All Specs</td>
-            <td class="bad">5% (25)</td>
-            <td class="bad">10% (50)</td>
-            <td>15% (75)</td>
-            <td class="good">20% (100)</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
-          <tr *ngFor="let spec of class.specs">
-            <td class="spec">{{ spec }}</td>
-            <td class="bad">5% (25)</td>
-            <td>10% (50)</td>
-            <td class="good">15% (75)</td>
-            <td class="good">20% (100)</td>
+          <tr *ngFor="let spec of class.specStats">
+            <td class="spec">{{ spec.spec }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td [class]="tierClass(spec.twosTier)">
+              {{
+                spec.twosTier
+                  ? (spec.percent.twos | number: "1.1-1") + "%"
+                  : "-"
+              }}
+            </td>
+            <td [class]="tierClass(spec.threesTier)">
+              {{
+                spec.threesTier
+                  ? (spec.percent.threes | number: "1.1-1") + "%"
+                  : "-"
+              }}
+            </td>
           </tr>
         </table>
-        <!-- <div class="footer">
-          <button [style.color]="'#' + class.color" class="remove">
-            Not Interested
-          </button>
-        </div> -->
       </div>
     </div>
   </div>
@@ -214,7 +236,6 @@
         Select a class from the recommendation panel to see details.
       </div>
       <div *ngIf="selectedClass$ | async as class">
-        <!-- {{ class | json }} -->
         <img class="icon" src="/assets/{{ class.id }}.png" />
         <div class="name" [style.color]="'#' + class.color">
           {{ class.name }}
@@ -252,9 +273,10 @@
         <h3>Spec Performance</h3>
 
         <p>
-          Based on statistics gathered from the to 500 players in each
-          respective content type (M+, Mythic Raiding, Arena) we have determined
-          that {{ class.name }} performs as follows.
+          Tiers are determined based on statistics gathered to compare class
+          percentage representation in each respective content type (M+, Mythic
+          Raiding, 3v3 Arena, 2v2 Arena). Spec tiers are relative to their role
+          (Tanking, Healing, Damage)
         </p>
 
         <table class="performance">
@@ -265,24 +287,33 @@
             <th>2v2</th>
             <th>3v3</th>
           </tr>
-          <tr *ngFor="let spec of class.specs">
-            <th>{{ spec }}</th>
-            <td><span class="tier s-tier">S Tier</span></td>
-            <td><span class="tier a-tier">A Tier</span></td>
-            <td><span class="tier f-tier">F Tier</span></td>
-            <td><span class="tier f-tier">F Tier</span></td>
+          <tr *ngFor="let spec of class.specStats">
+            <th>{{ spec.spec }}</th>
+            <td></td>
+            <td></td>
+            <td>
+              <span class="tier tag" [class]="tierClass(spec.twosTier)">{{
+                spec.twosTier ? spec.twosTier + " Tier" : "-"
+              }}</span>
+            </td>
+            <td>
+              <span class="tier tag" [class]="tierClass(spec.threesTier)">{{
+                spec.threesTier ? spec.threesTier + " Tier" : "-"
+              }}</span>
+            </td>
           </tr>
         </table>
-
-        {{ class.specStats | json }}
 
         <hr />
 
         <h3>Top Players</h3>
-        <p>Top 500 players M+</p>
-        <p>Top 500 players Raiding</p>
-        <p>Top 500 players 3v3 Arena</p>
-        <p>Top 500 players 2v2 Arena</p>
+
+        <mat-tab-group mat-align-tabs="start" [color]="'accent'" dynamicHeight>
+          <mat-tab label="M+">Coming soon</mat-tab>
+          <mat-tab label="Raiding">Coming soon</mat-tab>
+          <mat-tab label="3v3">Coming soon</mat-tab>
+          <mat-tab label="2v2">Coming soon</mat-tab>
+        </mat-tab-group>
       </div>
     </div>
   </div>

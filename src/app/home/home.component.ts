@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Class, Role, getDefaultClasses } from './models/Class';
-import { BehaviorSubject, combineLatest, Observable } from 'rxjs';
-import { tap, map } from 'rxjs/operators';
+import { BehaviorSubject, combineLatest, Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 import * as _ from 'lodash';
-import { HttpClient } from '@angular/common/http';
 import { StatisticsService } from '../statistics/statistics.service';
 import { SpecStatistics } from '../statistics/models/SpecStatistics';
+import { getClassColor } from './logic/getClassColor';
 
 @Component({
   selector: 'app-home',
@@ -53,6 +53,7 @@ export class HomeComponent implements OnInit {
   public classes$: Observable<Class[]>;
 
   public specStats$: Observable<SpecStatistics[]> = this.stats.specs;
+  public tierList$: Observable<any> = this.stats.tierList;
 
   constructor(public stats: StatisticsService) {
     this.classes$ = combineLatest(
@@ -117,7 +118,7 @@ export class HomeComponent implements OnInit {
         classes = classes.map((c) => {
           return {
             ...c,
-            specStats: specStatz.find((ss) => ss.klass === c.name),
+            specStats: specStatz.filter((ss) => ss.klass === c.name),
           };
         });
 
@@ -160,13 +161,38 @@ export class HomeComponent implements OnInit {
 
   selectClass(klass: Class) {
     this.selectedClass$.next(klass);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  selectClass2(klass: string) {
+    // const selected = this.classes$.getValue().find((c) => c.name === klass);
+    //this.selectedClass$.next(selected);
+  }
+
+  // getTier(bracket: string, spec: Spec, specStats: SpecStatistics[]) {
+  //   const correctSpec = specStats.find((ss) => ss.spec === spec);
+  //   if (bracket === '2v2') {
+  //     return correctSpec.twosTier || '';
+  //   }
+
+  //   if (bracket === '3v3') {
+  //     return correctSpec.threesTier || '';
+  //   }
+  // }
+
+  tierClass(tier: string) {
+    return tier ? tier.toLowerCase() + '-tier' : null;
   }
 
   private includesAll(arr: any[], values: any[]): boolean {
     return values.every((value) => {
       return arr.includes(value);
     });
+  }
+
+  getClassColor(klass: string) {
+    const color = getClassColor(klass);
+    return color;
   }
 
   private toLabel(value: string) {

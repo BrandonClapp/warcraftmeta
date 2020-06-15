@@ -1,3 +1,9 @@
+import { uptime } from 'process';
+import { getRoleSpecs } from '../logic/getRoleSpecs';
+import { getRole } from '../logic/getRole';
+import { Role } from './Role';
+import { calculatePvpTier } from '../logic/calculatePvpTier';
+
 export class SpecStatistics {
   // new SpecStatistics('warrior', 'arms', '84/1000', '75/1000', '100/500', '204/500')
   constructor(
@@ -21,27 +27,62 @@ export class SpecStatistics {
     [this.mplus, this.mplusSampleSize] = mplus
       .split('/')
       .map((s) => parseInt(s));
+
+    this.percent = {
+      twos: (this.twos / this.twosSampleSize) * 100,
+      threes: (this.threes / this.threesSampleSize) * 100,
+      raiding: null,
+      mplus: null,
+    };
+
+    // Calculate tier
+    this.twosTier = calculatePvpTier(this.klass, this.spec, this.percent.twos);
+    console.log(
+      '2v2',
+      this.klass,
+      this.spec,
+      this.twos,
+      this.twosSampleSize,
+      this.twosTier
+    );
+    this.threesTier = calculatePvpTier(
+      this.klass,
+      this.spec,
+      this.percent.threes
+    );
+    console.log(
+      '3v3',
+      this.klass,
+      this.spec,
+      this.threes,
+      this.threesSampleSize,
+      this.threesTier
+    );
   }
-  private klass: string;
-  private spec: string;
 
-  private twos: number;
-  private twosSampleSize: number;
+  public klass: string;
+  public spec: string;
 
-  private threes: number;
-  private threesSampleSize: number;
+  public twos: number;
+  public twosSampleSize: number;
+  public twosTier: string;
 
-  private raiding: number;
-  private raidingSampleSize: number;
+  public threes: number;
+  public threesSampleSize: number;
+  public threesTier: string;
 
-  private mplus: number;
-  private mplusSampleSize: number;
+  public raiding: number;
+  public raidingSampleSize: number;
+  public raidingTier: string;
 
-  public get percentRole2s(): number {
-    return (this.twos / this.twosSampleSize) * 100;
-  }
+  public mplus: number;
+  public mplusSampleSize: number;
+  public mplusTier: string;
 
-  public get percentRole3s(): number {
-    return (this.threes / this.threesSampleSize) * 100;
-  }
+  public percent: {
+    twos: number;
+    threes: number;
+    raiding: number;
+    mplus: number;
+  };
 }

@@ -1,14 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { SpecStatistics } from './models/SpecStatistics';
-import { combineLatest, BehaviorSubject } from 'rxjs';
+import { combineLatest, BehaviorSubject, Observable } from 'rxjs';
 import { PlayerRecord } from './models/PlayerRecord';
-import {
-  getSpecs,
-  Role,
-  organizePlayers,
-  SpecDefinition,
-} from './models/SpecDefinition';
+import { SpecDefinition } from './models/SpecDefinition';
+import { getSpecs } from './logic/getSpecs';
+import { organizePlayers } from './logic/organizePlayers';
+import { Role } from './models/Role';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -17,6 +16,27 @@ export class StatisticsService {
   public specs: BehaviorSubject<SpecStatistics[]> = new BehaviorSubject<
     SpecStatistics[]
   >([]);
+
+  public tierList: Observable<any> = this.specs.pipe(
+    map((specStats) => {
+      return {
+        twos: [
+          { tier: 'S', specs: specStats.filter((ss) => ss.twosTier === 'S') },
+          { tier: 'A', specs: specStats.filter((ss) => ss.twosTier === 'A') },
+          { tier: 'B', specs: specStats.filter((ss) => ss.twosTier === 'B') },
+          { tier: 'C', specs: specStats.filter((ss) => ss.twosTier === 'C') },
+          { tier: 'D', specs: specStats.filter((ss) => ss.twosTier === 'D') },
+        ],
+        threes: [
+          { tier: 'S', specs: specStats.filter((ss) => ss.threesTier === 'S') },
+          { tier: 'A', specs: specStats.filter((ss) => ss.threesTier === 'A') },
+          { tier: 'B', specs: specStats.filter((ss) => ss.threesTier === 'B') },
+          { tier: 'C', specs: specStats.filter((ss) => ss.threesTier === 'C') },
+          { tier: 'D', specs: specStats.filter((ss) => ss.threesTier === 'D') },
+        ],
+      };
+    })
+  );
 
   constructor(private http: HttpClient) {}
 
