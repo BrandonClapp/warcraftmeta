@@ -45,11 +45,13 @@
     }
 
     > .header {
-      font-size: 1.3em;
+      font-size: 1.1em;
       background: #0c132b;
       padding: 0.5em;
       border-bottom: 1px solid #6fffe9;
       color: #6effe9;
+      text-transform: uppercase;
+      font-weight: bold;
     }
 
     .footer {
@@ -129,6 +131,35 @@
 
 .class-details {
   margin: 1em;
+
+  .class-details-name {
+    display: flex;
+
+    .icon {
+      height: 35px;
+    }
+    .name {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-left: 0.5em;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .stat {
+    margin: 1em 0;
+    h4 {
+      font-size: 0.7em;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
 }
 
 .tier-list {
@@ -332,4 +363,15 @@ hr {
 
 ::ng-deep .mat-progress-bar-buffer {
   background-color: #0b132b;
+}
+
+footer {
+  margin: 2em;
+  text-align: center;
+  max-width: 1350px;
+  margin: 0 auto;
+
+  div {
+    margin: 1em 0;
+  }
 }

@@ -186,6 +186,9 @@
         No classes match that criteria.
       </div>
       <div
+        data-aos="flip-up"
+        data-aos-duration="400"
+        data-aos-once="true"
         (click)="selectClass(class)"
         *ngFor="let class of classes$ | async"
         class="class-block"
@@ -263,37 +266,47 @@
         Select a class from the recommendation panel to see details.
       </div>
       <div *ngIf="selectedClass$ | async as class">
-        <img class="icon" src="/assets/{{ class.id }}.png" />
-        <div class="name" [style.color]="'#' + class.color">
-          {{ class.name }}
+        <div class="class-details-name">
+          <img class="icon" src="/assets/{{ class.id }}.png" />
+          <div class="name" [style.color]="'#' + class.color">
+            {{ class.name }}
+          </div>
         </div>
 
-        <h4>Self healing</h4>
-        <mat-progress-bar
-          mode="determinate"
-          value="{{ class.survivability * 25 }}"
-        ></mat-progress-bar>
+        <div class="stat">
+          <h4>Self healing</h4>
+          <mat-progress-bar
+            mode="determinate"
+            value="{{ class.survivability * 25 }}"
+          ></mat-progress-bar>
+        </div>
 
-        <h4>Mobility</h4>
-        <mat-progress-bar
-          mode="determinate"
-          value="{{ class.mobility * 25 }}"
-          color="class.color"
-        ></mat-progress-bar>
+        <div class="stat">
+          <h4>Mobility</h4>
+          <mat-progress-bar
+            mode="determinate"
+            value="{{ class.mobility * 25 }}"
+            color="class.color"
+          ></mat-progress-bar>
+        </div>
 
-        <h4>Utility</h4>
-        <mat-progress-bar
-          mode="determinate"
-          value="{{ class.utility * 25 }}"
-          color="class.color"
-        ></mat-progress-bar>
+        <div class="stat">
+          <h4>Utility</h4>
+          <mat-progress-bar
+            mode="determinate"
+            value="{{ class.utility * 25 }}"
+            color="class.color"
+          ></mat-progress-bar>
+        </div>
 
-        <h4>Versatility</h4>
-        <mat-progress-bar
-          mode="determinate"
-          value="{{ class.roles.length * 25 }}"
-          color="class.color"
-        ></mat-progress-bar>
+        <div class="stat">
+          <h4>Versatility</h4>
+          <mat-progress-bar
+            mode="determinate"
+            value="{{ class.roles.length * 25 }}"
+            color="class.color"
+          ></mat-progress-bar>
+        </div>
 
         <hr />
 
@@ -330,7 +343,7 @@
 
         <hr />
 
-        <h3>Top Players</h3>
+        <h3>Spec Comparison</h3>
 
         <mat-tab-group mat-align-tabs="start" [color]="'accent'" dynamicHeight>
           <mat-tab label="M+">Coming soon</mat-tab>
@@ -342,3 +355,29 @@
     </div>
   </div>
 </div>
+
+<footer>
+  <div>
+    Battle for Azeroth, World of Warcraft, and Warcraft are trademarks or
+    registered trademarks of Blizzard Entertainment, Inc., in the U.S. and/or
+    other countries.
+  </div>
+
+  <div>
+    Content is available under
+    <a
+      target="_blank"
+      rel="nofollow"
+      href="https://creativecommons.org/licenses/by-sa/3.0/"
+      >CC BY-SA 3.0</a
+    >
+    unless otherwise noted. This site is not affiliated with the game publisher.
+  </div>
+  <div>
+    Like the project? Contribute on
+    <a target="_blank" href="https://github.com/BrandonClapp/warcraftmeta"
+      >GitHub</a
+    >
+    | <a target="_blank" href="https://brandonclapp.com">Brandon Clapp</a>.
+  </div>
+</footer>

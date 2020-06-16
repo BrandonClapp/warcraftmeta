@@ -161,7 +161,7 @@ export class HomeComponent implements OnInit {
 
   selectClass(klass: Class) {
     this.selectedClass$.next(klass);
-    // window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   selectClass2(klass: string) {

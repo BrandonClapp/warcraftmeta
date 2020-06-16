@@ -51,7 +51,7 @@ export class StatisticsService {
     const sub = combineLatest(
       this.http.get<PlayerRecord[]>('/assets/data/2v2.json'),
       this.http.get<PlayerRecord[]>('/assets/data/3v3.json'),
-      this.http.get<PlayerRecord[]>('/assets/data/full-mplus.json')
+      this.http.get<PlayerRecord[]>('/assets/data/mplus.json')
     ).subscribe((results) => {
       const [twos, threes, mplus] = results;
       this.calculateStatistics(twos, threes, mplus);
