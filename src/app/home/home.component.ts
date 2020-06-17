@@ -164,22 +164,6 @@ export class HomeComponent implements OnInit {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  selectClass2(klass: string) {
-    // const selected = this.classes$.getValue().find((c) => c.name === klass);
-    //this.selectedClass$.next(selected);
-  }
-
-  // getTier(bracket: string, spec: Spec, specStats: SpecStatistics[]) {
-  //   const correctSpec = specStats.find((ss) => ss.spec === spec);
-  //   if (bracket === '2v2') {
-  //     return correctSpec.twosTier || '';
-  //   }
-
-  //   if (bracket === '3v3') {
-  //     return correctSpec.threesTier || '';
-  //   }
-  // }
-
   tierClass(tier: string) {
     return tier ? tier.toLowerCase() + '-tier' : null;
   }

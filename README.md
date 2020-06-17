@@ -1,27 +1,32 @@
-# WowCalc
+# WarcraftMeta
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+### What is this?
 
-## Development server
+https://warcraftmeta.com is a project for helping new and returning players to World of Warcraft choose a class based on preferred playstyle and overall performance in different aspects of the game.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### What is "Meta"
 
-## Code scaffolding
+Meta is an acronym that stands for "most effective tactics available". "Meta" refers to what top rated players in a competitive setting are doing, since their tactics reflect the most effective way to reach the tops of the competitive leaderboards.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### What data is this based off of?
 
-## Build
+Data from the top echelon of players is gathered at the end of each week, once players have had a chance to perform in their choice of content. At the end of the week, before the weekly realm reset, data is gathered for...
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- The top 1000 players in the 2v2 PvP Arena bracket.
+- The top 1000 players in the 3v3 PvP Arena bracket.
+- All players from every realm for every +20 or greater Mythic Keystone dungeon.
+- Raiding data coming soon.
 
-## Running unit tests
+### How are meta tiers calculated?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Based on the population sample mentioned above, _each spec in a given role_ is given a tier based on the representation makeup for that. Specs that are more frequently found in the data will be given a higher/better tier, while specs that are less frequently found in the data will be given a lower/worse tier.
 
-## Running end-to-end tests
+The mean for a role is calculated based on the total specs in the game that are able to perform that role. For example, there are 6 total healer specs in the game, and as such would mean that in a perfect world where every class was equally represented, we would see 16.66% (repeating, of course). This number represents the mean and will be different for each role, since the total number of specs for each role differ.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The percentage makeup of a spec is compared to the mean as such...
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- S-Tier: if the percentage makeup is greater than **mean + (mean / 2) + (mean / 4)**
+- A-Tier: if the percentage makeup is between **mean + (mean / 2)** and S-Tier
+- B-Tier: if the percentage makeup is between **mean - (mean / 2)** and A-Tier
+- C-Tier: if the percentage makeup is between **mean + (mean/2) - (mean / 4)** and B-Tier
+- D-Tier: if the percentage makeup is less than **mean + (mean/2) - (mean / 4)**

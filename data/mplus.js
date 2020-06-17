@@ -151,24 +151,16 @@ async function aggregateMplus() {
   let dungeons = await getDungeons();
   let connectedRealms = await getConnectedRealms();
 
-  // connectedRealms = connectedRealms.slice(1, 3);
-  // dungeons = dungeons.slice(1, 3);
-
-  // console.log("subsets", connectedRealms, dungeons);
-
   const leaderboards = [];
   for (let i = 0; i < connectedRealms.length; i++) {
     const cRealm = connectedRealms[i];
 
     for (let j = 0; j < dungeons.length; j++) {
       const dungeonId = dungeons[j].id;
-      // await timeout(200);
       const leaderboard = await getLeaderboard(cRealm, dungeonId, currentWeek);
       leaderboards.push(leaderboard);
     }
   }
-
-  // _.uniqWith(objects, _.isEqual);
 
   const leaderboardPlayers = _.uniqWith(
     _.flattenDeep(leaderboards).map((p) => {
@@ -186,10 +178,6 @@ async function aggregateMplus() {
 
   // console.log("leaderboards", JSON.stringify(leaderboardPlayers));
   return leaderboardPlayers;
-}
-
-function timeout(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 module.exports = {
