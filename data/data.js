@@ -12,7 +12,6 @@ async function writeData(fileName, threes) {
 (async () => {
   const mp = await mplus.aggregateMplus();
   await writeData("mplus", mp);
-  return;
   const threes = await pvp.aggregatePvpBracket("3v3");
   const twos = await pvp.aggregatePvpBracket("2v2");
 
